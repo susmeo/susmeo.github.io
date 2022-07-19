@@ -22,7 +22,8 @@
         body{
             background-image: url(https://api.oneneko.com/v1/bing_today);
             background-repeat:no-repeat;
-            background-size: 100% 100%;
+			background-align: centre;
+            background-size: cover;
             background-attachment:fixed;
         }
     </style>
@@ -314,6 +315,24 @@
                 </a>
                 
                 
+                <a href="/categories/%E5%AD%A6%E4%B9%A0/" title="学习: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #F5EEF8;">学习
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/categories/%E5%B0%8F%E8%AF%B4/" title="小说: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            style="background-color: #D5F5E3;">小说
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
@@ -356,7 +375,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"计算机等级考试","max":2}],
+            indicator: [{"name":"计算机等级考试","max":2},{"name":"学习","max":2},{"name":"小说","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -367,7 +386,7 @@
             itemStyle: {normal: {areaStyle: {type: 'default'}}},
             data : [
                 {
-                    value : [1],
+                    value : [1,1,1],
                     name : '文章分类数量'
                 }
             ]
@@ -404,6 +423,15 @@
     }
 
     
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
 </style>
 <div class="">
     
@@ -411,7 +439,7 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="tencent"
                    type="playlist"
-                   id="8018736558"
+                   id="8547249444"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
@@ -442,7 +470,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">277</span>
+                        class="white-color">1.1k</span>
             
             
             
@@ -586,15 +614,6 @@ $(function () {
 
     
 
-    
-        
-        <script type="text/javascript">
-            // 任何时候网页都启用特效,判断windowidth大于768时只对桌面生效
-            var windowWidth = $(window).width();
-            if (windowWidth > 0) {
-                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
-            }
-        </script>
     
 
     <!-- 雪花特效 -->

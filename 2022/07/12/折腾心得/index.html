@@ -22,7 +22,6 @@
         body{
             background-image: url(https://api.oneneko.com/v1/bing_today);
             background-repeat:no-repeat;
-			background-align: centre;
             background-size: cover;
             background-attachment:fixed;
         }
@@ -266,14 +265,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-07-19
+                    2022-08-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    40
+                    242
                 </div>
                 
 
@@ -304,6 +303,25 @@
 <p>先看效果：</p>
 <p><img src="https://s2.loli.net/2022/07/12/KuScbPgJyHtna79.png"></p>
 <p>这是做好之后的效果</p>
+<p>hexo基本使用方法：</p>
+<p> hexo new “文章名”	新建文章</p>
+<p>hexo server或hexo s打开本地服务预览效果</p>
+<p>不习惯用md写作可以先在office软件里面写好，全选复制或者拖进来。</p>
+<p>使用 Hexo 生成静态文件快速而且简单。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<h3 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h3><p>Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的 SHA1 checksum，只有变动的文件才会写入。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --watch</span><br></pre></td></tr></table></figure>
+
+<h3 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h3><p>您可执行下列的其中一个命令，让 Hexo 在生成完毕后自动部署网站，两个命令的作用是相同的。</p>
+<p>deploy:部署</p>
+<p>generate:生成</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>简写</p>
+<p>上面两个命令可以简写为<br>$ hexo g -d<br>$ hexo d -g</p>
+</blockquote>
 
                 
             </div>
@@ -662,7 +680,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.1k</span>
+                        class="white-color">1.8k</span>
             
             
             

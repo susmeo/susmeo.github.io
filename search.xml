@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>各种软件下载</title>
+      <link href="/2022/08/21/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/"/>
+      <url>/2022/08/21/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/</url>
+      
+        <content type="html"><![CDATA[<h3 id="🔸🔹🔸各种软件资源🔸🔹🔸"><a href="#🔸🔹🔸各种软件资源🔸🔹🔸" class="headerlink" title="🔸🔹🔸各种软件资源🔸🔹🔸"></a>🔸🔹🔸各种软件资源🔸🔹🔸</h3><p><a href="https://pan.baidu.com/s/1Ka8_jDnkUkVtg6ClZ2uAYw?pwd=7249">Adobe全平台全版本全家桶</a></p><p><a href="https://cloud.189.cn/t/3meUVvuuABNr">Adobe win2022全家桶不限速天翼云 提取码o8nw</a></p><p><a href="https://pan.baidu.com/s/1PkgFn4n5PWT2BKaYHGs2-g?pwd=x6v7">3dmax全版本</a></p><p><a href="https://pan.baidu.com/s/1gS0hH9ibsihrkHDrNn4LzA?pwd=c18y">CAD全版本</a></p><p><a href="https://pan.baidu.com/s/17Ot9QVQnbBABJxcS0ew3nQ?pwd=tgeu">各个软件渲染器及小插件</a></p><p><a href="https://www.photopea.com/">在线PS</a></p><p><a href="https://www.05sun.com/downinfo/305805.html">草图大师2019</a></p><p><a href="https://wwc.lanzouo.com/iXmFtyk27zi">escape3.0 提取码SZZS</a></p><p><a href="https://wwr.lanzoui.com/iCQQT00xvute">远程协助 提取码6666</a></p><p><a href="http://xxsz.ysepan.com/">资源站</a></p><p><a href="https://xxsz.rth1.me/%E5%89%AA%E6%98%A0%E5%AD%97%E5%B9%95%E5%AF%BC%E5%87%BA.html">字幕制作</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 软件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo个人博客迁移方法要点</title>
       <link href="/2022/08/21/hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95%E8%A6%81%E7%82%B9/"/>
       <url>/2022/08/21/hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95%E8%A6%81%E7%82%B9/</url>
@@ -20,9 +45,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 技巧 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -35,7 +60,7 @@
       <link href="/2022/08/20/office%E6%8A%80%E5%B7%A7/"/>
       <url>/2022/08/20/office%E6%8A%80%E5%B7%A7/</url>
       
-        <content type="html"><![CDATA[<p>用替换快速格式化</p><p>首先把“），”替换为换行符“^p”</p><p>打开替换</p><p>点击更多，打开高级替换</p><p>勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换</p><p>接下来只要按照相同的方法把中间的符号替换为空格就行了</p><p><img src="https://tucang.cc/api/image/show/f33dd3634f5c0f66b1645573705bad1e" alt="img"></p><p><img src="https://tucang.cc/api/image/show/d7eef4ce02626f7fc7943cd2ac23cf86" alt="img"></p><p><img src="https://tucang.cc/api/image/show/4786ce91a8b3a1c5c6e6c3e59f151c62" alt="img"> </p><p>北京 53087 43827 </p><p>天津 22584 15433 </p><p>广州 22051 22088 </p><p>南京 23989 21664 </p><p>郑州 12809 10701 </p><p>上海 47549 46766 </p><p>重庆 7356 7858 </p><p>杭州 21212 19840 </p><p>深圳 43332 66191 </p><p>合肥 13927 11053 </p><p>选中文本插入 表格 文本转换为表格</p><table><thead><tr><th>北京</th><th>53087</th><th>43827</th></tr></thead><tbody><tr><td>天津</td><td>22584</td><td>15433</td></tr><tr><td>广州</td><td>22051</td><td>22088</td></tr><tr><td>南京</td><td>23989</td><td>21664</td></tr><tr><td>郑州</td><td>12809</td><td>10701</td></tr><tr><td>上海</td><td>47549</td><td>46766</td></tr><tr><td>重庆</td><td>7356</td><td>7858</td></tr><tr><td>杭州</td><td>21212</td><td>19840</td></tr><tr><td>深圳</td><td>43332</td><td>66191</td></tr><tr><td>合肥</td><td>13927</td><td>11053</td></tr></tbody></table><p>带[]的为可省略参数。</p><p>Sumifs的用法：（求和范围，条件范围1，条件1，[条件范围2，条件2]，……）</p><p>&#x3D;sum(Sumifs的另一种用法：（求和范围，条件范围，{条件1，条件2}））</p><p>用{}括起来的是数组</p><p>返回符合条件的的数组的和。注意：返回的是一个个数组，所以要用sum加起来。</p><p>数组的写法：{条件1分隔符条件2}</p><p>分隔符有“,”“;”</p><p>再多条件里多个数组是且的关系，多个分隔符相同时，那么他们的关系是一一对应的。不同表示所有条件的组合。</p><p>例1</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额</th></tr></thead><tbody><tr><td>一部+二部</td><td>A+C</td><td></td></tr></tbody></table><p>那么要求的销售额是一部A，一部C，二部A，二部C的和</p><p>销售额是两个条件的的所有的组合的和，所以应该用不同的分隔符</p><p>例2</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额合计</th></tr></thead><tbody><tr><td>一部</td><td>A</td><td></td></tr><tr><td>二部</td><td>C</td><td></td></tr></tbody></table><p>这时候那么要求的销售额是一部A，二部C的和。</p><p>所以应该用相同的分隔符来表示对应的关系。</p><p>If判断数值从高到低，从低到高高的也满足低的条件会出错。</p><p>ABS绝对值函数</p><table><thead><tr><th>示例</th><th>绝对值abs函数 abs(a2)</th></tr></thead><tbody><tr><td>-117</td><td>117</td></tr><tr><td>-121</td><td>121</td></tr><tr><td>-112</td><td>112</td></tr></tbody></table><p>Not否定函数</p>]]></content>
+        <content type="html"><![CDATA[<p>用替换快速格式化</p><p>首先把“），”替换为换行符“^p”</p><p>打开替换</p><p>点击更多，打开高级替换</p><p>勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换</p><p>接下来只要按照相同的方法把中间的符号替换为空格就行了</p><p><img src="https://tucang.cc/api/image/show/f33dd3634f5c0f66b1645573705bad1e"></p><p><img src="https://tucang.cc/api/image/show/d7eef4ce02626f7fc7943cd2ac23cf86"></p><p><img src="https://tucang.cc/api/image/show/4786ce91a8b3a1c5c6e6c3e59f151c62"> </p><p>北京 53087 43827 </p><p>天津 22584 15433 </p><p>广州 22051 22088 </p><p>南京 23989 21664 </p><p>郑州 12809 10701 </p><p>上海 47549 46766 </p><p>重庆 7356 7858 </p><p>杭州 21212 19840 </p><p>深圳 43332 66191 </p><p>合肥 13927 11053 </p><p>选中文本插入 表格 文本转换为表格</p><table><thead><tr><th>北京</th><th>53087</th><th>43827</th></tr></thead><tbody><tr><td>天津</td><td>22584</td><td>15433</td></tr><tr><td>广州</td><td>22051</td><td>22088</td></tr><tr><td>南京</td><td>23989</td><td>21664</td></tr><tr><td>郑州</td><td>12809</td><td>10701</td></tr><tr><td>上海</td><td>47549</td><td>46766</td></tr><tr><td>重庆</td><td>7356</td><td>7858</td></tr><tr><td>杭州</td><td>21212</td><td>19840</td></tr><tr><td>深圳</td><td>43332</td><td>66191</td></tr><tr><td>合肥</td><td>13927</td><td>11053</td></tr></tbody></table><p>带[]的为可省略参数。</p><p>Sumifs的用法：（求和范围，条件范围1，条件1，[条件范围2，条件2]，……）</p><p>&#x3D;sum(Sumifs的另一种用法：（求和范围，条件范围，{条件1，条件2}））</p><p>用{}括起来的是数组</p><p>返回符合条件的的数组的和。注意：返回的是一个个数组，所以要用sum加起来。</p><p>数组的写法：{条件1分隔符条件2}</p><p>分隔符有“,”“;”</p><p>再多条件里多个数组是且的关系，多个分隔符相同时，那么他们的关系是一一对应的。不同表示所有条件的组合。</p><p>例1</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额</th></tr></thead><tbody><tr><td>一部+二部</td><td>A+C</td><td></td></tr></tbody></table><p>那么要求的销售额是一部A，一部C，二部A，二部C的和</p><p>销售额是两个条件的的所有的组合的和，所以应该用不同的分隔符</p><p>例2</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额合计</th></tr></thead><tbody><tr><td>一部</td><td>A</td><td></td></tr><tr><td>二部</td><td>C</td><td></td></tr></tbody></table><p>这时候那么要求的销售额是一部A，二部C的和。</p><p>所以应该用相同的分隔符来表示对应的关系。</p><p>If判断数值从高到低，从低到高高的也满足低的条件会出错。</p><p>ABS绝对值函数</p><table><thead><tr><th>示例</th><th>绝对值abs函数 abs(a2)</th></tr></thead><tbody><tr><td>-117</td><td>117</td></tr><tr><td>-121</td><td>121</td></tr><tr><td>-112</td><td>112</td></tr></tbody></table><p>Not否定函数</p>]]></content>
       
       
       <categories>
@@ -112,19 +137,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/2022/07/12/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/"/>
-      <url>/2022/07/12/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/</url>
-      
-        <content type="html"><![CDATA[<p>title: 各种软件下载<br>author: 阿展<br>img:<br>top: true<br>hide: false<br>cover: true<br>toc: false<br>mathjax: false<br>summary: 找软件请来这里<br>categories: 软件<br>tags:</p><ul><li>软件<br>date:<br>coverImg:<br>password:</li></ul><h3 id="🔸🔹🔸各种软件资源🔸🔹🔸"><a href="#🔸🔹🔸各种软件资源🔸🔹🔸" class="headerlink" title="🔸🔹🔸各种软件资源🔸🔹🔸"></a>🔸🔹🔸各种软件资源🔸🔹🔸</h3><p><a href="https://pan.baidu.com/s/1Ka8_jDnkUkVtg6ClZ2uAYw?pwd=7249">Adobe全平台全版本全家桶</a></p><p><a href="https://cloud.189.cn/t/3meUVvuuABNr">Adobe win2022全家桶不限速天翼云 提取码o8nw</a></p><p><a href="https://pan.baidu.com/s/1PkgFn4n5PWT2BKaYHGs2-g?pwd=x6v7">3dmax全版本</a></p><p><a href="https://pan.baidu.com/s/1gS0hH9ibsihrkHDrNn4LzA?pwd=c18y">CAD全版本</a></p><p><a href="https://pan.baidu.com/s/17Ot9QVQnbBABJxcS0ew3nQ?pwd=tgeu">各个软件渲染器及小插件</a></p><p><a href="https://www.photopea.com/">在线PS</a></p><p><a href="https://www.05sun.com/downinfo/305805.html">草图大师2019</a></p><p><a href="https://wwc.lanzouo.com/iXmFtyk27zi">escape3.0 提取码SZZS</a></p><p><a href="https://wwr.lanzoui.com/iCQQT00xvute">远程协助 提取码6666</a></p><p><a href="http://xxsz.ysepan.com/">资源站</a></p><p><a href="https://xxsz.rth1.me/%E5%89%AA%E6%98%A0%E5%AD%97%E5%B9%95%E5%AF%BC%E5%87%BA.html">字幕制作</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>全国计算机等级考试题库</title>
       <link href="/2022/07/12/%E9%99%88%E8%80%81%E5%B8%88%E7%AC%94%E8%AE%B0/"/>
       <url>/2022/07/12/%E9%99%88%E8%80%81%E5%B8%88%E7%AC%94%E8%AE%B0/</url>
@@ -159,12 +171,18 @@
         <content type="html"><![CDATA[<p>参照<a href="https://gaoziman.blog.csdn.net/article/details/124652412">不会写代码的满满</a>同学的笔记折腾了一天，终于折腾出来了！</p><p>先看效果：</p><p><img src="https://s2.loli.net/2022/07/12/KuScbPgJyHtna79.png"></p><p>这是做好之后的效果</p><p>hexo基本使用方法：</p><p> hexo new “文章名”新建文章</p><p>hexo server或hexo s打开本地服务预览效果</p><p>不习惯用md写作可以先在office软件里面写好，全选复制或者拖进来。</p><p>使用 Hexo 生成静态文件快速而且简单。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><h3 id="监视文件变动"><a href="#监视文件变动" class="headerlink" title="监视文件变动"></a>监视文件变动</h3><p>Hexo 能够监视文件变动并立即重新生成静态文件，在生成时会比对文件的 SHA1 checksum，只有变动的文件才会写入。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --watch</span><br></pre></td></tr></table></figure><h3 id="完成后部署"><a href="#完成后部署" class="headerlink" title="完成后部署"></a>完成后部署</h3><p>您可执行下列的其中一个命令，让 Hexo 在生成完毕后自动部署网站，两个命令的作用是相同的。</p><p>deploy:部署</p><p>generate:生成</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate --deploy</span><br><span class="line">$ hexo deploy --generate</span><br></pre></td></tr></table></figure><blockquote><p>简写</p><p>上面两个命令可以简写为<br>$ hexo g -d<br>$ hexo d -g</p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> 技巧 </tag>
             
-            <tag> 折腾 </tag>
+            <tag> hexo </tag>
             
         </tags>
       

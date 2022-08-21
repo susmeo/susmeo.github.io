@@ -31,15 +31,15 @@
     <title>主页</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/css/my.css">
 
-    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/jquery/jquery-3.6.0.min.js"></script>
 
 <meta name="generator" content="Hexo 6.2.0"></head>
 
@@ -275,7 +275,7 @@
             <div class="description center-align">
                 
                 <span id="subtitle"></span>
-                <script src="/libs/typed/typed.js"></script>
+                <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/typed/typed.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: [ 
@@ -460,6 +460,29 @@
                 </div>
             </div>
         
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('https://tucang.cc/api/image/show/daaa0bfde5bade9fd47a9828a89c1044');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">hexo个人博客迁移方法要点</div>
+                            <div class="description center-align">
+                                
+                                    简单快速迁移博客
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2022/08/21/hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95%E8%A6%81%E7%82%B9/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
     
 </div>
 
@@ -495,8 +518,19 @@
 
         let carouselIntervalId;
         
+        // Loop to call the next cover article picture.
+        let autoCarousel = function () {
+            carouselIntervalId = setInterval(function () {
+                coverSlider.carousel('next');
+            }, 6000);
+        };
+        autoCarousel();
+        
 
         function restartPlay() {
+            
+            clearInterval(carouselIntervalId);
+            autoCarousel();
             
         };
 
@@ -565,7 +599,7 @@
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="category">学习</a>
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="category">笔记</a>
                         
                     
                 </div>
@@ -593,7 +627,7 @@
                 <div class="post-categories">
                     
                         
-                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="category">小说</a>
+                            <a href="/categories/%E5%A8%B1%E4%B9%90/" class="category">娱乐</a>
                         
                     
                 </div>
@@ -633,6 +667,59 @@
              <!-- 隐藏某个文章 -->
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
+                    <a href="/2022/08/21/hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95%E8%A6%81%E7%82%B9/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="https://tucang.cc/api/image/show/daaa0bfde5bade9fd47a9828a89c1044" class="responsive-img" alt="hexo个人博客迁移方法要点">
+                            
+                            <span class="card-title">hexo个人博客迁移方法要点</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                简单快速迁移博客
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-21
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/hexo/">
+                            <span class="chip bg-color">hexo</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%8A%80%E5%B7%A7/">
+                            <span class="chip bg-color">技巧</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
                     <a href="/2022/08/20/office%E6%8A%80%E5%B7%A7/">
                         <div class="card-image">
                             
@@ -665,8 +752,8 @@
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/%E6%8A%80%E5%B7%A7/" class="post-category">
-                                    技巧
+                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" class="post-category">
+                                    计算机等级考证
                                 </a>
                                 
                                 
@@ -717,8 +804,8 @@
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
+                                <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
                                 </a>
                                 
                                 
@@ -769,8 +856,8 @@
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
-                                    小说
+                                <a href="/categories/%E5%A8%B1%E4%B9%90/" class="post-category">
+                                    娱乐
                                 </a>
                                 
                                 
@@ -802,7 +889,7 @@
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                            <img src="https://tucang.cc/api/image/show/891ea5f9186f889adef7b215d9be9948" class="responsive-img" alt="">
                             
                             <span class="card-title"></span>
                         </div>
@@ -811,14 +898,9 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                🔸🔹🔸各种软件资源🔸🔹🔸Adobe全平台全版本全家桶
-Adobe win2022全家桶不限速天翼云 提取码o8nw
-3dmax全版本
-CAD全版本
-各个软件渲染器及小插件
-在线PS
-草图大师2019
-escape3.0 提取码S
+                                title: 各种软件下载author: 阿展img:top: truehide: falsecover: truetoc: falsemathjax: falsesummary: 找软件请来这里categories: 软件tags:
+
+软
                             
                         </div>
                         <div class="publish-info">
@@ -865,8 +947,8 @@ escape3.0 提取码S
                                 
                                 <i class="fas fa-bookmark fa-fw icon-category"></i>
                                 
-                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%95/" class="post-category">
-                                    计算机等级考试
+                                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" class="post-category">
+                                    计算机等级考证
                                 </a>
                                 
                                 
@@ -877,12 +959,12 @@ escape3.0 提取码S
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                            <span class="chip bg-color">笔记</span>
+                        <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/">
+                            <span class="chip bg-color">计算机等级考证</span>
                         </a>
                         
-                        <a href="/tags/%E8%80%83%E8%AF%81/">
-                            <span class="chip bg-color">考证</span>
+                        <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                            <span class="chip bg-color">笔记</span>
                         </a>
                         
                     </div>
@@ -898,7 +980,7 @@ escape3.0 提取码S
                         <div class="card-image">
                             
                             
-                            <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="折腾心得">
+                            <img src="https://tucang.cc/api/image/show/af5b8a1b0fbab59e68a69005b2a0eeb7" class="responsive-img" alt="折腾心得">
                             
                             <span class="card-title">折腾心得</span>
                         </div>
@@ -950,7 +1032,7 @@ escape3.0 提取码S
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/aplayer/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -1000,8 +1082,8 @@ escape3.0 提取码S
     </div>
 </div>
 
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="/libs/aplayer/Meting.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/aplayer/Meting.min.js"></script>
 
     
 
@@ -1017,7 +1099,7 @@ escape3.0 提取码S
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">1.8k</span>
+                        class="white-color">2.1k</span>
             
             
             
@@ -1152,12 +1234,12 @@ $(function () {
 </div>
 
 
-    <script src="/libs/materialize/materialize.min.js"></script>
-    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
-    <script src="/libs/aos/aos.js"></script>
-    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
-    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
-    <script src="/js/matery.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/materialize/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/js/matery.js"></script>
 
     
 
@@ -1171,7 +1253,7 @@ $(function () {
 
      
         <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-        <script src="/libs/others/TencentCaptcha.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/others/TencentCaptcha.js"></script>
         <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
     
 
@@ -1194,10 +1276,10 @@ $(function () {
 </script>
 
     
-    <script src="/libs/others/clicklove.js" async="async"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/others/clicklove.js" async="async"></script>
     
     
-    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    <script async src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/others/busuanzi.pure.mini.js"></script>
     
 
     
@@ -1211,11 +1293,11 @@ $(function () {
     
 
     
-    <script type="text/javascript" src="/libs/background/ribbon-dynamic.js" async="async"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/background/ribbon-dynamic.js" async="async"></script>
     
 
     
-    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
 </body>

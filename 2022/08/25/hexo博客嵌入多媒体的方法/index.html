@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="小说推荐, 主页">
-    <meta name="description" content="安利小说">
+    <meta name="keywords" content="hexo博客嵌入多媒体的方法, 主页">
+    <meta name="description" content="在博客文章插入视频、音乐、文档、图片、艺术字、emoji、网页等内容。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +28,7 @@
     </style>
 
 
-    <title>小说推荐 | 主页</title>
+    <title>hexo博客嵌入多媒体的方法 | 主页</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/awesome/css/all.min.css">
@@ -211,12 +211,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://s2.loli.net/2022/07/19/Cg8J3fnMy1ha5TB.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://tucang.cc/api/image/show/f46a3d18c25249639e78d04b3f85b5a8')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">小说推荐</h1>
+                    <h1 class="description center-align post-title">hexo博客嵌入多媒体的方法</h1>
                 </div>
             </div>
         </div>
@@ -238,12 +238,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%B0%8F%E8%AF%B4/">
-                                <span class="chip bg-color">小说</span>
-                            </a>
-                        
-                            <a href="/tags/%E4%B8%AD%E5%8C%BB/">
-                                <span class="chip bg-color">中医</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
                             </a>
                         
                     </div>
@@ -254,8 +250,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%A8%B1%E4%B9%90/" class="post-category">
-                                娱乐
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                笔记
                             </a>
                         
                     </div>
@@ -267,28 +263,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-07-19
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-08-21
+                    2022-08-25
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    23
+                    618
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -308,8 +304,39 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>推荐一本小说：《<a target="_blank" rel="noopener" href="https://changdunovel.com/wap/share-v2.html?aid=1967&book_id=6756605350549392388&share_type=0&share_code=NzOTGWJh5Ki0zB70ZBWNISyT_gjXD9XqPfniIQ7rW3k=&uid=a6bafef8688e449b799e6bb16f2e4bfc&share_id=w3vFP0sybS3LBvIb80dvOvfeBnwkgnZfQLlQJyGNZ2M=&source_channel=wechat_chat&type=book&share_token=749ff7eb-90e3-4986-9f7b-308bf4ceb67a">全职国医</a>》，作者很有中医经验，文笔也不错。</p>
-<p><img src="https://s2.loli.net/2022/07/19/Cg8J3fnMy1ha5TB.png" alt="image-20220719182050072"></p>
+                <h1 id="嵌入多媒体"><a href="#嵌入多媒体" class="headerlink" title="嵌入多媒体"></a>嵌入多媒体</h1><p>title标题放在第一个标签里面起到悬浮提示作用</p>
+<p>当无法播放时依次显示各个内容。</p>
+<p>简单的代码直接在编辑模式下粘贴就行，复杂的要在源代码模式粘贴代码</p>
+<p>演示代码要用插入代码块，指定语言可以展示这种语言的语法高亮。</p>
+<h3 id="嵌入视频"><a href="#嵌入视频" class="headerlink" title="嵌入视频"></a>嵌入视频</h3><video width="320" height="240" controls title="视频">
+  <source src="https://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4">
+您的浏览器不支持Video标签。
+</video>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;视频&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持Video标签。</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="嵌入音乐"><a href="#嵌入音乐" class="headerlink" title="嵌入音乐"></a>嵌入音乐</h3><p><audio controls title="音频"><source src="https://www.runoob.com/try/demo_source/horse.ogg" type="audio/ogg"><br>您的浏览器不支持 audio 元素。<br></audio></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;音频&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/horse.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持 audio 元素。</span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<p><img src="https://tucang.cc/api/image/show/8d73e7a061aa554f245e0f2f112bb993" alt="图片"></p>
+<h3 id="嵌入文档"><a href="#嵌入文档" class="headerlink" title="嵌入文档"></a>嵌入文档</h3><p>在源代码模式下输入代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;9999&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/英语.pdf&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>这种嵌入只对本地文件有用，用网络文件等于自动下载，基本上没用。</p>
+<h3 id="嵌入网页"><a href="#嵌入网页" class="headerlink" title="嵌入网页"></a>嵌入网页</h3><h4 id="两种方式"><a href="#两种方式" class="headerlink" title="两种方式"></a>两种方式</h4><h5 id="通过iframe标签"><a href="#通过iframe标签" class="headerlink" title="通过iframe标签"></a>通过iframe标签</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe src=&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot; width=&quot;100%&quot; height=&quot;9999&quot; name=&quot;topFrame&quot; scrolling=&quot;yes&quot;  noresize=&quot;noresize&quot; frameborder=&quot;0&quot; id=&quot;topFrame&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;嵌入网页</span><br><span class="line">&lt;iframe src=&quot;file:///H:/Users/lenovo/Desktop/%E7%BC%96%E7%A8%8B/1.html&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;简单嵌入网页</span><br></pre></td></tr></table></figure>
+<h5 id="通过html5的object标签"><a href="#通过html5的object标签" class="headerlink" title="通过html5的object标签"></a>通过html5的object标签</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;300&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="emoji"><a href="#emoji" class="headerlink" title="emoji"></a><a target="_blank" rel="noopener" href="https://blog.17lai.site/posts/80938cfe/">emoji</a></h3><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在线演示文档可以输出为图片或用wps在线演示。</p>
+<p>或者用嵌入代码在typora源代码模式下插入代码（基本上没用，会自动下载，不能演示）</p>
+<p>但可以用嵌入代码嵌入网页（文档也可以转成网页，不过效果不完全一样，配置也复杂，不推荐。）</p>
+<p>原文件可以放上链接让浏览者下载</p>
+<p>ppt的演示可以用插件（好像挺复杂，还没用过。）</p>
+<p>视频音乐用html代码</p>
+<p>图片直接插入</p>
+<p>文字效果可以用html代码</p>
+<p>推荐一个hexo博客写得贼溜的大神<a target="_blank" rel="noopener" href="https://blog.17lai.site/tags/hexo/" style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;"><br>夜法之书<br></a></p>
 
                 
             </div>
@@ -336,7 +363,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://susmeo.github.io/2022/07/19/%E5%B0%8F%E8%AF%B4%E6%8E%A8%E8%8D%90/">https://susmeo.github.io/2022/07/19/%E5%B0%8F%E8%AF%B4%E6%8E%A8%E8%8D%90/</a>
+                    <a href="https://susmeo.github.io/2022/08/25/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/">https://susmeo.github.io/2022/08/25/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -374,12 +401,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%B0%8F%E8%AF%B4/">
-                                    <span class="chip bg-color">小说</span>
-                                </a>
-                            
-                                <a href="/tags/%E4%B8%AD%E5%8C%BB/">
-                                    <span class="chip bg-color">中医</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
                                 </a>
                             
                         </div>
@@ -427,28 +450,78 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/08/20/office%E6%8A%80%E5%B7%A7/">
+                <a href="/2022/08/25/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/">
                     <div class="card-image">
                         
-                        <img src="https://tucang.cc/api/image/show/c24660439ac158a4594a2099f8984e22" class="responsive-img" alt="office技巧">
+                        <img src="https://tucang.cc/api/image/show/f46a3d18c25249639e78d04b3f85b5a8" class="responsive-img" alt="hexo博客嵌入多媒体的方法">
                         
-                        <span class="card-title">office技巧</span>
+                        <span class="card-title">hexo博客嵌入多媒体的方法</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            在博客文章插入视频、音乐、文档、图片、艺术字、emoji、网页等内容。
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-20
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-25
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/08/22/office%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/">
+                    <div class="card-image">
+                        
+                        <img src="https://tucang.cc/api/image/show/2edebb6b22e084d2747184ce56262d0d" class="responsive-img" alt="office避坑指南">
+                        
+                        <span class="card-title">office避坑指南</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            快来看看~
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-22
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -470,58 +543,6 @@
                     
                     <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/">
                         <span class="chip bg-color">计算机等级考证</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2022/07/19/HTML%E5%88%9D%E5%AD%A6%E7%AC%94%E8%AE%B0/">
-                    <div class="card-image">
-                        
-                        <img src="https://s2.loli.net/2022/07/19/kPj4VFO3Q6fSlIs.png" class="responsive-img" alt="HTML初学笔记">
-                        
-                        <span class="card-title">HTML初学笔记</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            HTML初学笔记
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-19
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
-                                    笔记
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E5%89%8D%E7%AB%AF/">
-                        <span class="chip bg-color">前端</span>
-                    </a>
-                    
-                    <a href="/tags/HTML/">
-                        <span class="chip bg-color">HTML</span>
                     </a>
                     
                 </div>

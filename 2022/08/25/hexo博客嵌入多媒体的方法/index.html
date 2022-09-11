@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo博客嵌入多媒体的方法, 阿展的个人博客">
+    <meta name="keywords" content="hexo博客嵌入多媒体的方法, 阿展的博客">
     <meta name="description" content="在博客文章插入视频、音乐、文档、图片、艺术字、emoji、网页等内容。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -28,7 +28,7 @@
     </style>
 
 
-    <title>hexo博客嵌入多媒体的方法 | 阿展的个人博客</title>
+    <title>hexo博客嵌入多媒体的方法 | 阿展的博客</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/awesome/css/all.min.css">
@@ -53,7 +53,7 @@
                     
                     <img src="/medias/logo.svg" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">阿展的个人博客</span>
+                    <span class="logo-span">阿展的博客</span>
                 </a>
             </div>
             
@@ -130,7 +130,7 @@
         
         <img src="/medias/logo.svg" class="logo-img circle responsive-img">
         
-        <div class="logo-name">阿展的个人博客</div>
+        <div class="logo-name">阿展的博客</div>
         <div class="logo-desc">
             
             阿展的个人博客
@@ -208,6 +208,19 @@
 </header>
 
     
+<script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -587,7 +600,7 @@
 
         var url = document.location.href;
         newdiv.innerHTML += '<br />'
-            + '来源: 阿展的个人博客<br />'
+            + '来源: 阿展的博客<br />'
             + '文章作者: 阿展<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
             + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
@@ -695,7 +708,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4.1k</span>
+                        class="white-color">4.5k</span>
             
             
             

@@ -29,7 +29,7 @@
     
     <style>
         body{
-            background-image: url(https://ts1.cn.mm.bing.net/th/id/R-C.024e30d94f9691a73ac1a4b6d078afad?rik=FKCfWZ8JoSSoVQ&riu=http%3a%2f%2fup.deskcity.org%2fpic_source%2f02%2f4e%2f30%2f024e30d94f9691a73ac1a4b6d078afad.jpg&ehk=%2bVntTVOyvxSzZYM6Eupq5ewt29gniFMlyLFyEli5DMw%3d&risl=&pid=ImgRaw&r=0);
+            background-image: url(https://oss-newspic.21cnjy.com/portal/202112/02/102400frv9gvvvhfyvh2vh.jpg);
             background-repeat:no-repeat;
             background-size: cover;
             background-attachment:fixed;
@@ -296,21 +296,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-09-08
+                    2022-09-15
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    768
+                    990
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -473,6 +473,57 @@
 <td>112</td>
 </tr>
 </tbody></table>
+<h3 id="subtotal函数"><a href="#subtotal函数" class="headerlink" title="subtotal函数"></a>subtotal函数</h3><p>作用：返回一个数据列表或数据库的分类汇总。</p>
+<p>语法：&#x3D;Subtotal(功能代码，数值区域)。</p>
+<p>如下图，代码1-11和101-111函数是相同的，但是他们的功能不同，前者计算的时候会将隐藏的值一起计算，后面在筛选或者隐藏数据后，只计算可见单元格数据。</p>
+<p><img src="https://tucang.cc/api/image/show/81944d8c004906cc40e92ad41aac2661"></p>
+<img src="https://tucang.cc/api/image/show/8a075028b9aae0842b7787c56d92ee6b" alt="" style="zoom:50%;" />
+
+
+
+<p>求班级平均分</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>班级平均分</td>
+<td>&#x3D;SUBTOTAL(1,B3:B5)</td>
+<td>B1结果为80</td>
+</tr>
+<tr>
+<td>2</td>
+<td>姓名</td>
+<td>语文</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>张三</td>
+<td>90</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>李四</td>
+<td>80</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>王五</td>
+<td>70</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>将function_num 值改成9,则求班级语文总分数，同理改成其他值，则得出相应的结果</p>
+<p>更多技巧参见<a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1697158947709614990&wfr=spider&for=pc">subtotal函数的使用方法和实例</a></p>
 <p>Not否定函数</p>
 <p> 给单元格加前导0</p>
 <p>设置单元格格式，自定义，输入000（要0到多少位就输多少个0，另外这里还可以设置格式来格式化号码）</p>
@@ -487,6 +538,9 @@
 <p>查重 -不是数据里的去重</p>
 <p>通过查重和条件格式将重复项标出来，或利用筛选、排序突出显示</p>
 <p>利用countif之类的的计数函数，判断返回值是否&gt;1。</p>
+<p>段落标记显示与隐藏开：开始|显示隐藏编辑标记</p>
+<p><img src="https://tucang.cc/api/image/show/6d94dd17e2ac50cc17c81c8521a77dc2"></p>
+<p>开关显示全部（包括换行符）：文件|选项|显示。 </p>
 
                 
             </div>
@@ -844,7 +898,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">4.5k</span>
+                        class="white-color">4.7k</span>
             
             
             

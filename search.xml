@@ -4,11 +4,63 @@
   
     
     <entry>
-      <title>hexo博客嵌入多媒体的方法</title>
-      <link href="/2022/08/25/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-      <url>/2022/08/25/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      <title>考证选择刷题总结</title>
+      <link href="/2022/09/17/%E8%80%83%E8%AF%81%E9%80%89%E6%8B%A9%E5%88%B7%E9%A2%98%E6%80%BB%E7%BB%93/"/>
+      <url>/2022/09/17/%E8%80%83%E8%AF%81%E9%80%89%E6%8B%A9%E5%88%B7%E9%A2%98%E6%80%BB%E7%BB%93/</url>
       
-        <content type="html"><![CDATA[<h1 id="嵌入多媒体"><a href="#嵌入多媒体" class="headerlink" title="嵌入多媒体"></a>嵌入多媒体</h1><p>title标题放在第一个标签里面起到悬浮提示作用</p><p>当无法播放时依次显示各个内容。</p><p>简单的代码直接在编辑模式下粘贴就行，复杂的要在源代码模式粘贴代码</p><p>演示代码要用插入代码块，指定语言可以展示这种语言的语法高亮。</p><h3 id="嵌入视频"><a href="#嵌入视频" class="headerlink" title="嵌入视频"></a>嵌入视频</h3><video width="320" height="240" controls title="视频">  <source src="https://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4">您的浏览器不支持Video标签。</video><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;视频&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持Video标签。</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="嵌入音乐"><a href="#嵌入音乐" class="headerlink" title="嵌入音乐"></a>嵌入音乐</h3><p><audio controls title="音频"><source src="https://www.runoob.com/try/demo_source/horse.ogg" type="audio/ogg"><br>您的浏览器不支持 audio 元素。<br></audio></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;音频&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/horse.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持 audio 元素。</span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://tucang.cc/api/image/show/8d73e7a061aa554f245e0f2f112bb993" alt="图片"></p><h3 id="嵌入文档"><a href="#嵌入文档" class="headerlink" title="嵌入文档"></a>嵌入文档</h3><p>在源代码模式下输入代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;9999&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/英语.pdf&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这种嵌入只对本地文件有用，用网络文件等于自动下载，基本上没用。</p><h3 id="嵌入网页"><a href="#嵌入网页" class="headerlink" title="嵌入网页"></a>嵌入网页</h3><h4 id="两种方式"><a href="#两种方式" class="headerlink" title="两种方式"></a>两种方式</h4><h5 id="通过iframe标签"><a href="#通过iframe标签" class="headerlink" title="通过iframe标签"></a>通过iframe标签</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe src=&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot; width=&quot;100%&quot; height=&quot;9999&quot; name=&quot;topFrame&quot; scrolling=&quot;yes&quot;  noresize=&quot;noresize&quot; frameborder=&quot;0&quot; id=&quot;topFrame&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;嵌入网页</span><br><span class="line">&lt;iframe src=&quot;file:///H:/Users/lenovo/Desktop/%E7%BC%96%E7%A8%8B/1.html&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;简单嵌入网页</span><br></pre></td></tr></table></figure><h5 id="通过html5的object标签"><a href="#通过html5的object标签" class="headerlink" title="通过html5的object标签"></a>通过html5的object标签</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;300&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="emoji"><a href="#emoji" class="headerlink" title="emoji"></a><a href="https://blog.17lai.site/posts/80938cfe/">emoji</a></h3><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在线演示文档可以输出为图片或用wps在线演示。</p><p>或者用嵌入代码在typora源代码模式下插入代码（基本上没用，会自动下载，不能演示）</p><p>但可以用嵌入代码嵌入网页（文档也可以转成网页，不过效果不完全一样，配置也复杂，不推荐。）</p><p>原文件可以放上链接让浏览者下载</p><p>ppt的演示可以用插件（好像挺复杂，还没用过。）</p><p>视频音乐用html代码</p><p>图片直接插入</p><p>文字效果可以用html代码</p><p>如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p style=&quot;text-align:left;color:red;font-size:1em;font-weight: bold;&quot;&gt;</span><br></pre></td></tr></table></figure><p>虽然mrakdown可以用标准html代码，但在md里是不需要结束标签的，两者做出来效果都一样，想怎么写就怎么写！</p><p>推荐一个hexo博客写得贼溜的大神<a href="https://blog.17lai.site/tags/hexo/" style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;"><br>夜法之书<br></a></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机等级考证 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>office技巧</title>
+      <link href="/2022/09/17/office%E6%8A%80%E5%B7%A7/"/>
+      <url>/2022/09/17/office%E6%8A%80%E5%B7%A7/</url>
+      
+        <content type="html"><![CDATA[<p>用替换快速格式化</p><p>首先把“），”替换为换行符“^p”</p><p>打开替换</p><p>点击更多，打开高级替换</p><p>勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换</p><p>接下来只要按照相同的方法把中间的符号替换为空格就行了</p><p><img src="https://tucang.cc/api/image/show/f33dd3634f5c0f66b1645573705bad1e"></p><p><img src="https://tucang.cc/api/image/show/d7eef4ce02626f7fc7943cd2ac23cf86"></p><p><img src="https://tucang.cc/api/image/show/4786ce91a8b3a1c5c6e6c3e59f151c62"> </p><p>北京 53087 43827 </p><p>天津 22584 15433 </p><p>广州 22051 22088 </p><p>南京 23989 21664 </p><p>郑州 12809 10701 </p><p>上海 47549 46766 </p><p>重庆 7356 7858 </p><p>杭州 21212 19840 </p><p>深圳 43332 66191 </p><p>合肥 13927 11053 </p><p>选中文本插入 表格 文本转换为表格</p><table><thead><tr><th>北京</th><th>53087</th><th>43827</th></tr></thead><tbody><tr><td>天津</td><td>22584</td><td>15433</td></tr><tr><td>广州</td><td>22051</td><td>22088</td></tr><tr><td>南京</td><td>23989</td><td>21664</td></tr><tr><td>郑州</td><td>12809</td><td>10701</td></tr><tr><td>上海</td><td>47549</td><td>46766</td></tr><tr><td>重庆</td><td>7356</td><td>7858</td></tr><tr><td>杭州</td><td>21212</td><td>19840</td></tr><tr><td>深圳</td><td>43332</td><td>66191</td></tr><tr><td>合肥</td><td>13927</td><td>11053</td></tr></tbody></table><p>带[]的为可省略参数。</p><p>Sumifs的用法：（求和范围，条件范围1，条件1，[条件范围2，条件2]，……）</p><p>&#x3D;sum(Sumifs的另一种用法：（求和范围，条件范围，{条件1，条件2}））</p><p>用{}括起来的是数组</p><p>返回符合条件的的数组的和。注意：返回的是一个个数组，所以要用sum加起来。</p><p>数组的写法：{条件1分隔符条件2}</p><p>分隔符有“,”“;”</p><p>再多条件里多个数组是且的关系，多个分隔符相同时，那么他们的关系是一一对应的。不同表示所有条件的组合。</p><p>例1</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额</th></tr></thead><tbody><tr><td>一部+二部</td><td>A+C</td><td></td></tr></tbody></table><p>那么要求的销售额是一部A，一部C，二部A，二部C的和</p><p>销售额是两个条件的的所有的组合的和，所以应该用不同的分隔符</p><p>例2</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额合计</th></tr></thead><tbody><tr><td>一部</td><td>A</td><td></td></tr><tr><td>二部</td><td>C</td><td></td></tr></tbody></table><p>这时候那么要求的销售额是一部A，二部C的和。</p><p>所以应该用相同的分隔符来表示对应的关系。</p><p>If判断数值从高到低，从低到高高的也满足低的条件会出错。</p><p>ABS绝对值函数</p><table><thead><tr><th>示例</th><th>绝对值abs函数 abs(a2)</th></tr></thead><tbody><tr><td>-117</td><td>117</td></tr><tr><td>-121</td><td>121</td></tr><tr><td>-112</td><td>112</td></tr></tbody></table><h3 id="subtotal函数"><a href="#subtotal函数" class="headerlink" title="subtotal函数"></a>subtotal函数</h3><p>作用：返回一个数据列表或数据库的分类汇总。</p><p>语法：&#x3D;Subtotal(功能代码，数值区域)。</p><p>如下图，代码1-11和101-111函数是相同的，但是他们的功能不同，前者计算的时候会将隐藏的值一起计算，后面在筛选或者隐藏数据后，只计算可见单元格数据。</p><p><img src="https://tucang.cc/api/image/show/81944d8c004906cc40e92ad41aac2661"></p><img src="https://tucang.cc/api/image/show/8a075028b9aae0842b7787c56d92ee6b" alt="" style="zoom:50%;" /><p>求班级平均分</p><table><thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead><tbody><tr><td>1</td><td>班级平均分</td><td>&#x3D;SUBTOTAL(1,B3:B5)</td><td>B1结果为80</td></tr><tr><td>2</td><td>姓名</td><td>语文</td><td></td></tr><tr><td>3</td><td>张三</td><td>90</td><td></td></tr><tr><td>4</td><td>李四</td><td>80</td><td></td></tr><tr><td>5</td><td>王五</td><td>70</td><td></td></tr></tbody></table><p>将function_num 值改成9,则求班级语文总分数，同理改成其他值，则得出相应的结果</p><p>更多技巧参见<a href="https://baijiahao.baidu.com/s?id=1697158947709614990&wfr=spider&for=pc">subtotal函数的使用方法和实例</a></p><p>Not否定函数</p><p> 给单元格加前导0</p><p>设置单元格格式，自定义，输入000（要0到多少位就输多少个0，另外这里还可以设置格式来格式化号码）</p><p>强大的自动填充</p><p>如想要去掉单元格的英文，可以在旁边输入单元格里面的中文，自动填充。</p><p>思路开拓</p><p>题目要求每一个的数值都大于指定值为a</p><p>可以使用and或or和数组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if or(&#123;平均分&gt;60,平均分&gt;80,平均分&gt;90&#125;:&#123;and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60)&#125;)</span><br></pre></td></tr></table></figure><p>但输入较麻烦。可以直接用countif，条件为&lt;a，判断返回值是否&gt;&#x3D;1</p><p>查重 -不是数据里的去重</p><p>通过查重和条件格式将重复项标出来，或利用筛选、排序突出显示</p><p>利用countif之类的的计数函数，判断返回值是否&gt;1。</p><p>段落标记显示与隐藏开：开始|显示隐藏编辑标记</p><p><img src="https://tucang.cc/api/image/show/6d94dd17e2ac50cc17c81c8521a77dc2"></p><p>开关显示全部（包括换行符）：文件|选项|显示。 </p><p>分页和分节区别</p><p>分页是在同一个页码体系里面的。而插入分节后能同时存在多种页码。</p><p>如：一些书目录有1、2、3这样的页码。而正文的页码也是从1开始的。这就是用分节符做到的。</p><p><img src="https://tucang.cc/api/image/show/2c016cafbea1a7fe178a15c44aa9083b"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机等级考证 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> office </tag>
+            
+            <tag> 计算机等级考证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo博客嵌入多媒体的方法</title>
+      <link href="/2022/09/17/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+      <url>/2022/09/17/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="嵌入多媒体"><a href="#嵌入多媒体" class="headerlink" title="嵌入多媒体"></a>嵌入多媒体</h1><p>title标题放在第一个标签里面起到悬浮提示作用</p><p>当无法播放时依次显示各个内容。</p><p>简单的代码直接在编辑模式下粘贴就行，复杂的要在源代码模式粘贴代码</p><p>演示代码要用插入代码块，指定语言可以展示这种语言的语法高亮。</p><h3 id="嵌入视频"><a href="#嵌入视频" class="headerlink" title="嵌入视频"></a>嵌入视频</h3><video width="320" height="240" controls title="视频">  <source src="https://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4">您的浏览器不支持Video标签。</video><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;视频&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持Video标签。</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="嵌入音乐"><a href="#嵌入音乐" class="headerlink" title="嵌入音乐"></a>嵌入音乐</h3><p><audio controls title="音频"><source src="https://www.runoob.com/try/demo_source/horse.ogg" type="audio/ogg"><br>您的浏览器不支持 audio 元素。<br></audio></p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;音频&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/horse.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持 audio 元素。</span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://tucang.cc/api/image/show/8d73e7a061aa554f245e0f2f112bb993" alt="图片"></p><h3 id="嵌入文档"><a href="#嵌入文档" class="headerlink" title="嵌入文档"></a>嵌入文档</h3><p>在源代码模式下输入代码</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;9999&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/英语.pdf&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><p>这种嵌入只对本地文件有用，用网络文件等于自动下载，基本上没用。</p><h3 id="嵌入网页"><a href="#嵌入网页" class="headerlink" title="嵌入网页"></a>嵌入网页</h3><h4 id="两种方式"><a href="#两种方式" class="headerlink" title="两种方式"></a>两种方式</h4><h5 id="通过iframe标签"><a href="#通过iframe标签" class="headerlink" title="通过iframe标签"></a>通过iframe标签</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe src=&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot; width=&quot;100%&quot; height=&quot;9999&quot; name=&quot;topFrame&quot; scrolling=&quot;yes&quot;  noresize=&quot;noresize&quot; frameborder=&quot;0&quot; id=&quot;topFrame&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;嵌入网页</span><br><span class="line">&lt;iframe src=&quot;file:///H:/Users/lenovo/Desktop/%E7%BC%96%E7%A8%8B/1.html&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;简单嵌入网页</span><br></pre></td></tr></table></figure><h5 id="通过html5的object标签"><a href="#通过html5的object标签" class="headerlink" title="通过html5的object标签"></a>通过html5的object标签</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;300&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure><h3 id="emoji"><a href="#emoji" class="headerlink" title="emoji"></a><a href="https://blog.17lai.site/posts/80938cfe/">emoji</a></h3><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在线演示文档可以输出为图片或用wps在线演示。</p><p>或者用嵌入代码在typora源代码模式下插入代码（基本上没用，会自动下载，不能演示）</p><p>但可以用嵌入代码嵌入网页（文档也可以转成网页，不过效果不完全一样，配置也复杂，不推荐。）</p><p>原文件可以放上链接让浏览者下载</p><p>ppt的演示可以用插件（好像挺复杂，还没用过。）</p><p>视频音乐用html代码</p><p>图片直接插入</p><p>简单的公式用html代码，复杂的公式可以用word编辑好，粘贴为图片</p><p>文字效果可以用html代码</p><p>如：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p style=&quot;text-align:left;color:red;font-size:1em;font-weight: bold;&quot;&gt;</span><br></pre></td></tr></table></figure><p>虽然mrakdown可以用标准html代码，但在md里是不需要结束标签的，两者做出来效果都一样，想怎么写就怎么写！</p><p>推荐一个hexo博客写得贼溜的大神<a href="https://blog.17lai.site/tags/hexo/" style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;"><br>夜法之书<br></a></p>]]></content>
       
       
       <categories>
@@ -29,11 +81,61 @@
     
     
     <entry>
+      <title>考前复习1</title>
+      <link href="/2022/09/17/%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A01/"/>
+      <url>/2022/09/17/%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A01/</url>
+      
+        <content type="html"><![CDATA[<p>下面是小黑考前Word复习课讲到的部分内容，因为很多是我很熟悉的就没有记。</p><p>边看直播边敲的，来不及实操做图。</p><p>全部大写、半全角，开始文本大小写A的图标</p><p>隐藏文本：文本对话框|隐藏，隐藏了要关显示控制字符才会生效</p><p>内置样式其实就是字体样式里面上面的样式</p><p>找不到就用最接近的</p><p>空心就是只要轮廓，不要填充</p><p>颜色还有考hsl模式的在自定义下拉框选择hsl</p><p>视图|网格可以检查段前后距离</p><p>没有单位可以手输</p><p>选中设置好的字体可以直接开始|样式|创建样式</p><p>右键样式可以改样式，包括各种格式</p><p>创建前的字体不会自动应用样式</p><p>如何应用隐藏样式：样式下拉箭头|管理样式|使用前隐藏|改成显示。或者直接搜。</p><p>找不到的命令可以直接在标题栏搜。</p><p>替换可以用来批量做格式。</p><p>如果题目有要求区分大小写等要求，就要注意勾选</p><p>一定要时刻注意题目要求！！！</p><p>替换注意<strong>如果题目要求标题不要替换</strong>，那么把标题放到标题后面，替换，提示要不要从头搜，那么就不要选是。</p><p>真题15的表格做一做</p><p>设置边框公式：1内2外3特殊用边框刷，刷完用esc退出。</p><p>合并单元格，如果题目只要保留一个段落标记那么就把多余的删掉。</p><p>重复标题行：放到标题行，或者选中标题行，在布局上面重复标题行</p><p>排序：</p><p>升序就是从小到大。</p><p>降序就是从大到小。</p><p>忘了函数还可以点公式|粘贴函数。</p><p>Word里面有的功能就不能在其他里面做，但ppt可以。</p><p>比如陈老师之前说的在Excel里面计算好的结果粘贴到Word是不行的。</p><p>布局|版式，页眉页脚距离边界</p><p>页眉页脚距就是页眉页脚距离纸张边界的距离</p><p>同时在布局里面可以打开行号检查。最好是不要开，要记得关。</p><p><em>*<em>尾注</em>就是在*文档的最后</em>显示，<em>脚注</em>就是在<em>当前页最后</em>显示。**</p><p><strong>脚注尾注所有标点符号一定要是英文符号。</strong>（考证题是这样判断的……）</p><p>,.[]JIO</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机等级考证 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>进制转换</title>
+      <link href="/2022/09/16/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
+      <url>/2022/09/16/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</url>
+      
+        <content type="html"><![CDATA[<p>进制数每加一位数，那么这个数就是原来的1+增加的位数次方</p><p>&#x3D;原数<sup>增加的位数+1</sup></p><p>如：10-&gt;10<sup>1+1</sup>-&gt;10<sup>2</sup></p><p>如：2-&gt;10<sup>1+1</sup>-&gt;10<sup>2</sup></p><p>如：2B-&gt;2<sup>1+1</sup>-&gt;2<sup>2</sup></p><p>进制数每加一位数，那么这个数就是原来的数乘以这个数进制数的减少的位数次方分之1</p><p><img src="https://tucang.cc/api/image/show/8b1e3f33160da6eb95d1ea81570644fb"></p><p>如二进制10后面加一个0，那么这个二进制数就是原来的2倍<br>如八进制10后面加一个0，那么这个八进制数就是原来的八倍<br>如十进制10后面加一个0，那么这个十进制数就是原来的10倍</p><p>多少进制加一位数，那么这个数就是原来的进制倍</p><p>多少进制加一位数，那么这个数就是原来的进制倍</p><p>一个数的二进制位数一定大于或等于该数十进制的位数（当且仅当这个十进制数取等于）</p><p>不同进制大小比较技巧</p><p>100011110B直接看最高位的二进制数，2的8次方<br>75<br>37(八进制)<br>8的0次方*3+8的1次方*3<br2A（十六进制）</p><p>无符号的二进制数第一位可以为0</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机等级考证 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 考证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>office避坑指南</title>
       <link href="/2022/08/22/office%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/"/>
       <url>/2022/08/22/office%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/</url>
       
-        <content type="html"><![CDATA[<p>清除页眉<br>方法1：双击进去页眉，将光标放在页眉线上面。开始，清除所有格式。</p><img src="https://tucang.cc/api/image/show/fd19dd202f5cc4b5e7801f9162fbab2b" alt="点击图片可放大查看" style="zoom:50%;" /><p>方法二：将光标放在页眉线上面。边框和底纹，预览框下面无边框，应用范围：段落。</p><img src="https://tucang.cc/api/image/show/6c11b7d9597ebd69a1c4089f50e905ea" alt="点击图片可放大查看" style="zoom: 25%;" /><p>方法三：正文样式（ctrl+shift+N），将光标放在页眉线上面按快捷键。</p><p>插入符号<br>插入，符号、软键盘输入</p><p>中英文状态下使用shift加数字键输入的符号不同。中文状态4为￥，英文状态为$。中文6为……两组省略号，英文为一组…</p><p>带圈字符<br>软键盘输入、开始&#x2F;带圈字符</p><p><img src="https://tucang.cc/api/image/show/171ce294d857226d58d0b268c09c435e"></p><p>表格不同宽度框线<br>先选中最多的用全部做，再选中少的要设置的范围用自定义设置，点击缩略图要设置的地方即可刷新。再次点击取消框线<br>word公式<br>f4重复，cv粘贴，f9或右击更新（只有大概范围像left这种才能更新，单元格的引用更新不了）<br>范围<br>above上面，left左边，right右边，below下面</p><p>判断的逻辑：判断是先给满足最外面的条件的数据执行操作，此时最先符合条件的数据已经被剔除了，所以要按升序或降序来嵌套（套娃）。使用降序时要用小于或小于等于号（平时不常用）</p><p>双引号的使用：只有文本要用英文双引号，数字加了会出错。</p><p>注意：用公式查找使用数字时不要用双引号（不管查找的单元格格式是不是文本），不然会找不到</p><p>文档关键字要用中文分号；隔开。</p><p style="text-align:left;color:red;font-size:1em;font-weight: bold;">判断的逻辑：判断是先给满足最外面的条件的数据执行操作，此时最先符合条件的数据已经被剔除了，所以要按升序或降序来嵌套（套娃）。使用降序时要用小于或小于等于号（平时不常用）<p style="text-align:left;color:red;font-size:1em;font-weight: bold;">网址的大小写无所谓，但其他任何部分要输入的内容都要保证和题目一模一样！不仅仅是内容一样，还要保证中英文标点、英文大小写一样。<p style="text-align:left;color:orange;font-size:1em;font-weight: bold;">excel保留小数位数的题不能用工具栏的增加、减少小数位数，要用自定义单元格格式|数值下的位数。<p>双引号的使用：只有文本要用英文双引号，数字加了会出错。</p><p>注意：用公式查找使用数字时不要用双引号（不管查找的单元格格式是不是文本），不然会找不到</p><p>文档关键字要用中文分号；隔开。</p></p><p>一定要认真检查，不漏题。特别是输入的文字、标点有没有错。</p><p>坑：<br>1.Excel用公式的时候要注意范围，少偷懒……<br>平时用列引用直接A:E没问题，sumif不认这个。<br>要用$A$XX:$A$XX引用<br>2.繁转简注意打开繁转简面板<br>不要直接点繁转简<br>注意取消勾选转换常用词汇</p><p>3.任何时候要输入的文字完全按照题目双引号里的输入，注意中英文的标点符号，中文的宽一些。</p><p>4.叫你应用那个标题就应用哪个标题，然后再改参数。（没出现这个样式可以先应用前面的样式，会自动出现下一个样式。）</p><p>5.改编号什么的题要用段落编号，没有就定义一个，注意中英文。</p><p>6.注意单元格的绝对引用，做完记得检查！</p><p>7.用条件格式如果没有特殊说明就用等于做条件（现实应该用包含）</p><p>8.现在的模拟软件都有很多问题。我按照要求做的偏要说错了，反着做反而对了😂</p><p>9.word表格设置内外自定义框线时要注意观察，是先设置其他的内框线还是1、2行间内框线。先设置前面，再设置其他的会被覆盖掉。（按照题目步骤做却错了。）自定义完看一下预览，检查。</p><p>10.PPT做着做着到后面要改顺序、删幻灯片，一不小心就会误删，记得检查😉</p><p>11.要输入的内容显示的一些符号没有区别甚至大小写混合🧿😡，注意观察！观察!中英文感叹号在不同的地方大小也区别很大，尤其在句尾。分不出来尽量用前面的语言符号。</p><p>12.检查(●’◡’●)</p>]]></content>
+        <content type="html"><![CDATA[<p>清除页眉<br><del>方法1：双击进去页眉，将光标放在页眉线上面。开始，清除所有格式。（不太可靠）</del></p><img src="https://tucang.cc/api/image/show/fd19dd202f5cc4b5e7801f9162fbab2b" alt="点击图片可放大查看" style="zoom:50%;" /><p>方法二：将光标放在页眉线上面。边框和底纹，预览框下面无边框，应用范围：段落。</p><img src="https://tucang.cc/api/image/show/6c11b7d9597ebd69a1c4089f50e905ea" alt="点击图片可放大查看" style="zoom: 25%;" /><p>方法三：正文样式（ctrl+shift+N），将光标放在页眉线上面按快捷键。</p><p>插入符号<br>插入，符号、软键盘输入</p><p>中英文状态下使用shift加数字键输入的符号不同。中文状态4为￥，英文状态为$。中文6为……两组省略号，英文为一组…</p><p>带圈字符<br>软键盘输入、开始&#x2F;带圈字符</p><p><img src="https://tucang.cc/api/image/show/171ce294d857226d58d0b268c09c435e"></p><p>表格不同宽度框线<br>先选中最多的用全部做，再选中少的要设置的范围用自定义设置，点击缩略图要设置的地方即可刷新。再次点击取消框线<br>word公式<br>f4重复，cv粘贴，f9或右击更新（只有大概范围像left这种才能更新，单元格的引用更新不了）<br>范围<br>above上面，left左边，right右边，below下面</p><p>判断的逻辑：判断是先给满足最外面的条件的数据执行操作，此时最先符合条件的数据已经被剔除了，所以要按升序或降序来嵌套（套娃）。使用降序时要用小于或小于等于号（平时不常用）</p><p>双引号的使用：只有文本要用英文双引号，数字加了会出错。</p><p>注意：用公式查找使用数字时不要用双引号（不管查找的单元格格式是不是文本），不然会找不到</p><p>文档关键字要用中文分号；隔开。</p><p style="text-align:left;color:red;font-size:1em;font-weight: bold;">判断的逻辑：判断是先给满足最外面的条件的数据执行操作，此时最先符合条件的数据已经被剔除了，所以要按升序或降序来嵌套（套娃）。使用降序时要用小于或小于等于号（平时不常用）<p style="text-align:left;color:red;font-size:1em;font-weight: bold;">网址的大小写无所谓，但其他任何部分要输入的内容都要保证和题目一模一样！不仅仅是内容一样，还要保证中英文标点、英文大小写一样。<p style="text-align:left;color:orange;font-size:1em;font-weight: bold;">excel保留小数位数的题不能用工具栏的增加、减少小数位数，要用自定义单元格格式|数值下的位数。<p>双引号的使用：只有文本要用英文双引号，数字加了会出错。</p><p>注意：用公式查找使用数字时不要用双引号（不管查找的单元格格式是不是文本），不然会找不到</p><p>文档关键字要用中文分号；隔开。</p></p><p>一定要认真检查，不漏题。特别是输入的文字、标点有没有错。</p><p>坑：<br>1.Excel用公式的时候要注意范围，少偷懒……<br>平时用列引用直接A:E没问题，sumif不认这个。<br>要用$A$XX:$A$XX引用<br>2.繁转简注意打开繁转简面板<br>不要直接点繁转简<br>注意取消勾选转换常用词汇</p><p>3.任何时候要输入的文字完全按照题目双引号里的输入，注意中英文的标点符号，中文的宽一些。</p><p>4.叫你应用那个标题就应用哪个标题，然后再改参数。（没出现这个样式可以先应用前面的样式，会自动出现下一个样式。）</p><p>5.改编号什么的题要用段落编号，没有就定义一个，注意中英文。</p><p>6.注意单元格的绝对引用，做完记得检查！</p><p>7.用条件格式如果没有特殊说明就用等于做条件（现实应该用包含）</p><p>8.现在的模拟软件都有很多问题。我按照要求做的偏要说错了，反着做反而对了😂</p><p>9.word表格设置内外自定义框线时要注意观察，是先设置其他的内框线还是1、2行间内框线。先设置前面，再设置其他的会被覆盖掉。（按照题目步骤做却错了。）自定义完看一下预览，检查。</p><p>10.PPT做着做着到后面要改顺序、删幻灯片，一不小心就会误删，记得检查😉</p><p>11.要输入的内容显示的一些符号没有区别甚至大小写混合🧿😡，注意观察！观察!中英文感叹号在不同的地方大小也区别很大，尤其在句尾。分不出来尽量用前面的语言符号。</p><p>12.检查(●’◡’●)</p>]]></content>
       
       
       <categories>
@@ -98,33 +200,6 @@
         <tags>
             
             <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>office技巧</title>
-      <link href="/2022/08/20/office%E6%8A%80%E5%B7%A7/"/>
-      <url>/2022/08/20/office%E6%8A%80%E5%B7%A7/</url>
-      
-        <content type="html"><![CDATA[<p>用替换快速格式化</p><p>首先把“），”替换为换行符“^p”</p><p>打开替换</p><p>点击更多，打开高级替换</p><p>勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换</p><p>接下来只要按照相同的方法把中间的符号替换为空格就行了</p><p><img src="https://tucang.cc/api/image/show/f33dd3634f5c0f66b1645573705bad1e"></p><p><img src="https://tucang.cc/api/image/show/d7eef4ce02626f7fc7943cd2ac23cf86"></p><p><img src="https://tucang.cc/api/image/show/4786ce91a8b3a1c5c6e6c3e59f151c62"> </p><p>北京 53087 43827 </p><p>天津 22584 15433 </p><p>广州 22051 22088 </p><p>南京 23989 21664 </p><p>郑州 12809 10701 </p><p>上海 47549 46766 </p><p>重庆 7356 7858 </p><p>杭州 21212 19840 </p><p>深圳 43332 66191 </p><p>合肥 13927 11053 </p><p>选中文本插入 表格 文本转换为表格</p><table><thead><tr><th>北京</th><th>53087</th><th>43827</th></tr></thead><tbody><tr><td>天津</td><td>22584</td><td>15433</td></tr><tr><td>广州</td><td>22051</td><td>22088</td></tr><tr><td>南京</td><td>23989</td><td>21664</td></tr><tr><td>郑州</td><td>12809</td><td>10701</td></tr><tr><td>上海</td><td>47549</td><td>46766</td></tr><tr><td>重庆</td><td>7356</td><td>7858</td></tr><tr><td>杭州</td><td>21212</td><td>19840</td></tr><tr><td>深圳</td><td>43332</td><td>66191</td></tr><tr><td>合肥</td><td>13927</td><td>11053</td></tr></tbody></table><p>带[]的为可省略参数。</p><p>Sumifs的用法：（求和范围，条件范围1，条件1，[条件范围2，条件2]，……）</p><p>&#x3D;sum(Sumifs的另一种用法：（求和范围，条件范围，{条件1，条件2}））</p><p>用{}括起来的是数组</p><p>返回符合条件的的数组的和。注意：返回的是一个个数组，所以要用sum加起来。</p><p>数组的写法：{条件1分隔符条件2}</p><p>分隔符有“,”“;”</p><p>再多条件里多个数组是且的关系，多个分隔符相同时，那么他们的关系是一一对应的。不同表示所有条件的组合。</p><p>例1</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额</th></tr></thead><tbody><tr><td>一部+二部</td><td>A+C</td><td></td></tr></tbody></table><p>那么要求的销售额是一部A，一部C，二部A，二部C的和</p><p>销售额是两个条件的的所有的组合的和，所以应该用不同的分隔符</p><p>例2</p><table><thead><tr><th>部门</th><th>产品</th><th>一月销售额合计</th></tr></thead><tbody><tr><td>一部</td><td>A</td><td></td></tr><tr><td>二部</td><td>C</td><td></td></tr></tbody></table><p>这时候那么要求的销售额是一部A，二部C的和。</p><p>所以应该用相同的分隔符来表示对应的关系。</p><p>If判断数值从高到低，从低到高高的也满足低的条件会出错。</p><p>ABS绝对值函数</p><table><thead><tr><th>示例</th><th>绝对值abs函数 abs(a2)</th></tr></thead><tbody><tr><td>-117</td><td>117</td></tr><tr><td>-121</td><td>121</td></tr><tr><td>-112</td><td>112</td></tr></tbody></table><h3 id="subtotal函数"><a href="#subtotal函数" class="headerlink" title="subtotal函数"></a>subtotal函数</h3><p>作用：返回一个数据列表或数据库的分类汇总。</p><p>语法：&#x3D;Subtotal(功能代码，数值区域)。</p><p>如下图，代码1-11和101-111函数是相同的，但是他们的功能不同，前者计算的时候会将隐藏的值一起计算，后面在筛选或者隐藏数据后，只计算可见单元格数据。</p><p><img src="https://tucang.cc/api/image/show/81944d8c004906cc40e92ad41aac2661"></p><img src="https://tucang.cc/api/image/show/8a075028b9aae0842b7787c56d92ee6b" alt="" style="zoom:50%;" /><p>求班级平均分</p><table><thead><tr><th></th><th>A</th><th>B</th><th>C</th></tr></thead><tbody><tr><td>1</td><td>班级平均分</td><td>&#x3D;SUBTOTAL(1,B3:B5)</td><td>B1结果为80</td></tr><tr><td>2</td><td>姓名</td><td>语文</td><td></td></tr><tr><td>3</td><td>张三</td><td>90</td><td></td></tr><tr><td>4</td><td>李四</td><td>80</td><td></td></tr><tr><td>5</td><td>王五</td><td>70</td><td></td></tr></tbody></table><p>将function_num 值改成9,则求班级语文总分数，同理改成其他值，则得出相应的结果</p><p>更多技巧参见<a href="https://baijiahao.baidu.com/s?id=1697158947709614990&wfr=spider&for=pc">subtotal函数的使用方法和实例</a></p><p>Not否定函数</p><p> 给单元格加前导0</p><p>设置单元格格式，自定义，输入000（要0到多少位就输多少个0，另外这里还可以设置格式来格式化号码）</p><p>强大的自动填充</p><p>如想要去掉单元格的英文，可以在旁边输入单元格里面的中文，自动填充。</p><p>思路开拓</p><p>题目要求每一个的数值都大于指定值为a</p><p>可以使用and或or和数组</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if or(&#123;平均分&gt;60,平均分&gt;80,平均分&gt;90&#125;:&#123;and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60)&#125;)</span><br></pre></td></tr></table></figure><p>但输入较麻烦。可以直接用countif，条件为&lt;a，判断返回值是否&gt;&#x3D;1</p><p>查重 -不是数据里的去重</p><p>通过查重和条件格式将重复项标出来，或利用筛选、排序突出显示</p><p>利用countif之类的的计数函数，判断返回值是否&gt;1。</p><p>段落标记显示与隐藏开：开始|显示隐藏编辑标记</p><p><img src="https://tucang.cc/api/image/show/6d94dd17e2ac50cc17c81c8521a77dc2"></p><p>开关显示全部（包括换行符）：文件|选项|显示。 </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 计算机等级考证 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> office </tag>
-            
-            <tag> 计算机等级考证 </tag>
             
         </tags>
       

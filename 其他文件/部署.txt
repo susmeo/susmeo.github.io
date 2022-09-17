@@ -1,0 +1,3 @@
+hexo clean清理
+hexo generate生成
+hexo deploy部署

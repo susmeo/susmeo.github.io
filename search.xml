@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Excel复习</title>
+      <link href="/2022/09/24/Excel%E5%A4%8D%E4%B9%A0/"/>
+      <url>/2022/09/24/Excel%E5%A4%8D%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h1><p><img src="https://tucang.cc/api/image/show/316a599d2f40c3d58fb17829a894f010"></p><p><img src="https://tucang.cc/api/image/show/a3b19a7e195a87ef4a3a671e1b7325f4"> </p><h2 id="列宽不够导致显示不全"><a href="#列宽不够导致显示不全" class="headerlink" title="列宽不够导致显示不全"></a>列宽不够导致显示不全</h2><p>这个紧字符很奇怪耶，他说我明明数值没有错，内容没有错，它就是不给我显示，为什么，因为你的列宽不够</p><p><img src="https://tucang.cc/api/image/show/88b45fe6e8637ff3653f46df2b02edd9"> </p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在两列之间双击一下，就可以自动去调整它的一个列宽</p><p>多列：格式|自动调整列宽。</p><p>格式|行高、列宽 右键|行高、列宽</p><p><strong>列宽默认的单位是磅。</strong></p><h2 id="其他技巧"><a href="#其他技巧" class="headerlink" title="其他技巧"></a>其他技巧</h2><p>数据选项卡这个地方，它是有一个漏斗的，它是有一个漏斗的光标定在这个区域里面一点是吧，那么你这个筛选就取消了</p><p>ctrl shift向下方向键同时按就可以快速选中下面的数据。上下左右方向键就是快速选中上下左右。</p><p>填充的时候也因为是常规所以要选中多个才能自动填充。而其他的格式只有一个也能填充。</p><p>日期和数字是可以相互转化的1900年1月1日就是数字1。（Excel的世界第一天）</p><h2 id="数值格式"><a href="#数值格式" class="headerlink" title="数值格式"></a>数值格式</h2><p>千位分隔符：比如说，你的银行存款1234元，好那么过了三位数，他就这边给你打一个逗号。￥1,000</p><p>比如说，你的银行存款1234元，好那么过了三位数，他就这边给你打一个逗号是吧这里有它的一个负数形式，它负数形式有一个是这样的一个红色的虽然说它看起来是正数，但它其实表示这个负数</p><p><img src="https://tucang.cc/api/image/show/e404e6e558d956fef64ed2b167cf3f97"> </p><p>使用红色的负数形式</p><p><img src="https://tucang.cc/api/image/show/d73dfa0cc31062bd3ecf71d96c572bf0"> </p><h3 id="日期"><a href="#日期" class="headerlink" title="日期"></a>日期</h3><p>往后的日期都是1900年到日期的天数的数字。</p><p><img src="https://tucang.cc/api/image/show/8e22639eba19dfb264ea90efd793e46b"> </p><p>各个格式的类型可以改变单元格显示的格式！而不一定要用text函数。</p><p><img src="https://tucang.cc/api/image/show/78ca0a80668fd52842f7e2ba24e9a1d8"> </p><h2 id="四舍五入"><a href="#四舍五入" class="headerlink" title="四舍五入"></a>四舍五入</h2><p><img src="https://tucang.cc/api/image/show/d196a7b76918cd71227444fbe75ea59f"> </p><p>四舍五入：设置成数值型，想要四舍五入到几位就设置小数点位数到几位。同样的有关数值的类型，设置位数后都能四舍五入。</p><p>要想不被四舍五入、完整显示。就要将单元格设置为文本格式，或者数值型的位数等于最小的位数</p><h2 id="条件格式"><a href="#条件格式" class="headerlink" title="条件格式"></a>条件格式</h2><p><img src="https://tucang.cc/api/image/show/165b4e10c4e3077e09bd787f1bc5f9d4"> </p><p>第一题第二小题在突出显示|重复项</p><p>第二题在项目选取规则，前10项</p><p>筛选前10项：筛选里面的自动筛选前十个，可以筛出最前x个，最后x个。</p><p>普通筛选只能筛选出来各个条件为且的关系的数据，在需要筛选多个条件之间为或关系的数据时要用高级筛选</p><p>高级筛选</p><p>高级筛选的同一行表示且的关系，不同行表示或的关系。</p><p>选中多行插入可以插入选中的行数。</p><p>套用单元格样式、高级筛选、等对整个表格进行操作的不用选中，将光标放在表格区域内，进行操作就能够自动选中。</p><p>艺术字、形状、表格等要设置位置的题目做题步骤：</p><p>插入、设置效果&#x2F;大小、设置位置。</p><h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p><a href="https://susmeo.github.io/file.github.io/%E4%B8%80%E7%BA%A7Excel%E5%87%BD%E6%95%B0%E5%A4%A7%E5%85%A8.pdf">点击查看常考函数</a></p><h1 id="ppt"><a href="#ppt" class="headerlink" title="ppt"></a>ppt</h1><p>凡是有文字的smart都直接转化</p><p>外貌都在设计</p><p>右键编辑数据，打开Excel粘贴，删除不需要的。</p><p>添加图标标签后右键设置图标标签 </p><p>右键图设置数据系列格式有分离程度</p><p><img src="https://tucang.cc/api/image/show/e77751cfdccbf2bb9324134f9c7a0dc9"> </p><p><img src="https://tucang.cc/api/image/show/67a0a263434b23186acfb24ab303afc8"> </p><p>基础操作做第八套</p><p>题目要求设置某张幻灯片背景样式时，右键设置背景样式，默认是全部应用，右键可以应用于所选幻灯片</p><p>设置幻灯片背景格式后勾选隐藏背景图形</p><p>最后再设置一次切换方式</p><p>动画窗格可以看到并设置动画顺序，也可以直接向前、后移动</p><p><img src="https://tucang.cc/api/image/show/971f406da9478f06891cfc362b84f179"> </p><p>母版</p><p>视图|幻灯片母版</p><p>在第一个做的修改就能全部应用</p><p>主题里面的背景图形应该就是用的母版</p><p>PPT第17套</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机等级考证 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> office </tag>
+            
+            <tag> 计算机等级考证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>考前刷题总结</title>
       <link href="/2022/09/24/%E6%88%91%E7%9A%84%E6%98%93%E9%94%99%E7%82%B9/"/>
       <url>/2022/09/24/%E6%88%91%E7%9A%84%E6%98%93%E9%94%99%E7%82%B9/</url>
@@ -52,19 +79,6 @@
             <tag> 计算机等级考证 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2022/09/22/Excel%E5%A4%8D%E4%B9%A0/"/>
-      <url>/2022/09/22/Excel%E5%A4%8D%E4%B9%A0/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h1><p><img src="https://tucang.cc/api/image/show/316a599d2f40c3d58fb17829a894f010"></p><p><img src="https://tucang.cc/api/image/show/a3b19a7e195a87ef4a3a671e1b7325f4"> </p><h2 id="列宽不够导致显示不全"><a href="#列宽不够导致显示不全" class="headerlink" title="列宽不够导致显示不全"></a>列宽不够导致显示不全</h2><p>这个紧字符很奇怪耶，他说我明明数值没有错，内容没有错，它就是不给我显示，为什么，因为你的列宽不够</p><p><img src="https://tucang.cc/api/image/show/88b45fe6e8637ff3653f46df2b02edd9"> </p><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><p>在两列之间双击一下，就可以自动去调整它的一个列宽</p><p>多列：格式|自动调整列宽。</p><p>格式|行高、列宽 右键|行高、列宽</p><p><strong>列宽默认的单位是磅。</strong></p><h2 id="其他技巧"><a href="#其他技巧" class="headerlink" title="其他技巧"></a>其他技巧</h2><p>数据选项卡这个地方，它是有一个漏斗的，它是有一个漏斗的光标定在这个区域里面一点是吧，那么你这个筛选就取消了</p><p>ctrl shift向下方向键同时按就可以快速选中下面的数据。上下左右方向键就是快速选中上下左右。</p><p>填充的时候也因为是常规所以要选中多个才能自动填充。而其他的格式只有一个也能填充。</p><p>日期和数字是可以相互转化的1900年1月1日就是数字1。（Excel的世界第一天）</p><h2 id="数值格式"><a href="#数值格式" class="headerlink" title="数值格式"></a>数值格式</h2><p>千位分隔符：比如说，你的银行存款1234元，好那么过了三位数，他就这边给你打一个逗号。￥1,000</p><p>比如说，你的银行存款1234元，好那么过了三位数，他就这边给你打一个逗号是吧这里有它的一个负数形式，它负数形式有一个是这样的一个红色的虽然说它看起来是正数，但它其实表示这个负数</p><p><img src="https://tucang.cc/api/image/show/e404e6e558d956fef64ed2b167cf3f97"> </p><p>使用红色的负数形式</p><p><img src="https://tucang.cc/api/image/show/d73dfa0cc31062bd3ecf71d96c572bf0"> </p><h3 id="日期"><a href="#日期" class="headerlink" title="日期"></a>日期</h3><p>往后的日期都是1900年到日期的天数的数字。</p><p><img src="https://tucang.cc/api/image/show/8e22639eba19dfb264ea90efd793e46b"> </p><p>各个格式的类型可以改变单元格显示的格式！而不一定要用text函数。</p><p><img src="https://tucang.cc/api/image/show/78ca0a80668fd52842f7e2ba24e9a1d8"> </p><h2 id="四舍五入"><a href="#四舍五入" class="headerlink" title="四舍五入"></a>四舍五入</h2><p><img src="https://tucang.cc/api/image/show/d196a7b76918cd71227444fbe75ea59f"> </p><p>四舍五入：设置成数值型，想要四舍五入到几位就设置小数点位数到几位。同样的有关数值的类型，设置位数后都能四舍五入。</p><p>要想不被四舍五入、完整显示。就要将单元格设置为文本格式，或者数值型的位数等于最小的位数</p><h2 id="条件格式"><a href="#条件格式" class="headerlink" title="条件格式"></a>条件格式</h2><p><img src="https://tucang.cc/api/image/show/165b4e10c4e3077e09bd787f1bc5f9d4"> </p><p>第一题第二小题在突出显示|重复项</p><p>第二题在项目选取规则，前10项</p><p>筛选前10项：筛选里面的自动筛选前十个，可以筛出最前x个，最后x个。</p><p>普通筛选只能筛选出来各个条件为且的关系的数据，在需要筛选多个条件之间为或关系的数据时要用高级筛选</p><p>高级筛选</p><p>高级筛选的同一行表示且的关系，不同行表示或的关系。</p><p>选中多行插入可以插入选中的行数。</p><p>套用单元格样式、高级筛选、等对整个表格进行操作的不用选中，将光标放在表格区域内，进行操作就能够自动选中。</p><p>艺术字、形状、表格等要设置位置的题目做题步骤：</p><p>插入、设置效果&#x2F;大小、设置位置。</p><h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p><a href="https://susmeo.github.io/file.github.io/%E4%B8%80%E7%BA%A7Excel%E5%87%BD%E6%95%B0%E5%A4%A7%E5%85%A8.pdf">点击查看常考函数</a></p><h1 id="ppt"><a href="#ppt" class="headerlink" title="ppt"></a>ppt</h1><p>凡是有文字的smart都直接转化</p><p>外貌都在设计</p><p>右键编辑数据，打开Excel粘贴，删除不需要的。</p><p>添加图标标签后右键设置图标标签 </p><p>右键图设置数据系列格式有分离程度</p><p><img src="https://tucang.cc/api/image/show/e77751cfdccbf2bb9324134f9c7a0dc9"> </p><p><img src="https://tucang.cc/api/image/show/67a0a263434b23186acfb24ab303afc8"> </p><p>基础操作做第八套</p><p>题目要求设置某张幻灯片背景样式时，右键设置背景样式，默认是全部应用，右键可以应用于所选幻灯片</p><p>设置幻灯片背景格式后勾选隐藏背景图形</p><p>最后再设置一次切换方式</p><p>动画窗格可以看到并设置动画顺序，也可以直接向前、后移动</p><p><img src="https://tucang.cc/api/image/show/971f406da9478f06891cfc362b84f179"> </p><p>母版</p><p>视图|幻灯片母版</p><p>在第一个做的修改就能全部应用</p><p>主题里面的背景图形应该就是用的母版</p><p>PPT第17套</p>]]></content>
-      
-      
       
     </entry>
     

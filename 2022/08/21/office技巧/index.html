@@ -4,8 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo博客嵌入多媒体的方法, 阿展的博客">
-    <meta name="description" content="在博客文章插入视频、音乐、文档、图片、艺术字、emoji、网页等内容。">
+    <meta name="keywords" content="office技巧, 阿展的博客">
+    <meta name="description" content="用替换快速格式化
+首先把“），”替换为换行符“^p”
+打开替换
+点击更多，打开高级替换
+勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换
+接下来只要按照相同的方法把中间的符号替换为空格就行了
+
+
+ 
+北京 53087 438">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +37,7 @@
     </style>
 
 
-    <title>hexo博客嵌入多媒体的方法 | 阿展的博客</title>
+    <title>office技巧 | 阿展的博客</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/awesome/css/all.min.css">
@@ -224,12 +233,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://tucang.cc/api/image/show/f46a3d18c25249639e78d04b3f85b5a8')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://tucang.cc/api/image/show/c24660439ac158a4594a2099f8984e22')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo博客嵌入多媒体的方法</h1>
+                    <h1 class="description center-align post-title">office技巧</h1>
                 </div>
             </div>
         </div>
@@ -251,8 +260,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/office/">
+                                <span class="chip bg-color">office</span>
+                            </a>
+                        
+                            <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/">
+                                <span class="chip bg-color">计算机等级考证</span>
                             </a>
                         
                     </div>
@@ -263,8 +276,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
-                                笔记
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" class="post-category">
+                                计算机等级考证
                             </a>
                         
                     </div>
@@ -276,28 +289,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-09-17
+                    2022-08-21
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-09-16
+                    2022-09-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    704
+                    1.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    4 分
                 </div>
                 
 
@@ -317,44 +330,221 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="嵌入多媒体"><a href="#嵌入多媒体" class="headerlink" title="嵌入多媒体"></a>嵌入多媒体</h1><p>title标题放在第一个标签里面起到悬浮提示作用</p>
-<p>当无法播放时依次显示各个内容。</p>
-<p>简单的代码直接在编辑模式下粘贴就行，复杂的要在源代码模式粘贴代码</p>
-<p>演示代码要用插入代码块，指定语言可以展示这种语言的语法高亮。</p>
-<h3 id="嵌入视频"><a href="#嵌入视频" class="headerlink" title="嵌入视频"></a>嵌入视频</h3><video width="320" height="240" controls title="视频">
-  <source src="https://www.runoob.com/try/demo_source/movie.mp4" type="video/mp4">
-您的浏览器不支持Video标签。
-</video>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">width</span>=<span class="string">&quot;320&quot;</span> <span class="attr">height</span>=<span class="string">&quot;240&quot;</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;视频&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/movie.mp4&quot;</span> <span class="attr">type</span>=<span class="string">&quot;video/mp4&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持Video标签。</span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>
+                <p>用替换快速格式化</p>
+<p>首先把“），”替换为换行符“^p”</p>
+<p>打开替换</p>
+<p>点击更多，打开高级替换</p>
+<p>勾选“忽略标点符号”（因为文本是中英文标点符号混合的）并全部替换</p>
+<p>接下来只要按照相同的方法把中间的符号替换为空格就行了</p>
+<p><img src="https://tucang.cc/api/image/show/f33dd3634f5c0f66b1645573705bad1e"></p>
+<p><img src="https://tucang.cc/api/image/show/d7eef4ce02626f7fc7943cd2ac23cf86"></p>
+<p><img src="https://tucang.cc/api/image/show/4786ce91a8b3a1c5c6e6c3e59f151c62"> </p>
+<p>北京 53087 43827 </p>
+<p>天津 22584 15433 </p>
+<p>广州 22051 22088 </p>
+<p>南京 23989 21664 </p>
+<p>郑州 12809 10701 </p>
+<p>上海 47549 46766 </p>
+<p>重庆 7356 7858 </p>
+<p>杭州 21212 19840 </p>
+<p>深圳 43332 66191 </p>
+<p>合肥 13927 11053 </p>
+<p>选中文本插入 表格 文本转换为表格</p>
+<table>
+<thead>
+<tr>
+<th>北京</th>
+<th>53087</th>
+<th>43827</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>天津</td>
+<td>22584</td>
+<td>15433</td>
+</tr>
+<tr>
+<td>广州</td>
+<td>22051</td>
+<td>22088</td>
+</tr>
+<tr>
+<td>南京</td>
+<td>23989</td>
+<td>21664</td>
+</tr>
+<tr>
+<td>郑州</td>
+<td>12809</td>
+<td>10701</td>
+</tr>
+<tr>
+<td>上海</td>
+<td>47549</td>
+<td>46766</td>
+</tr>
+<tr>
+<td>重庆</td>
+<td>7356</td>
+<td>7858</td>
+</tr>
+<tr>
+<td>杭州</td>
+<td>21212</td>
+<td>19840</td>
+</tr>
+<tr>
+<td>深圳</td>
+<td>43332</td>
+<td>66191</td>
+</tr>
+<tr>
+<td>合肥</td>
+<td>13927</td>
+<td>11053</td>
+</tr>
+</tbody></table>
+<p>带[]的为可省略参数。</p>
+<p>Sumifs的用法：（求和范围，条件范围1，条件1，[条件范围2，条件2]，……）</p>
+<p>&#x3D;sum(Sumifs的另一种用法：（求和范围，条件范围，{条件1，条件2}））</p>
+<p>用{}括起来的是数组</p>
+<p>返回符合条件的的数组的和。注意：返回的是一个个数组，所以要用sum加起来。</p>
+<p>数组的写法：{条件1分隔符条件2}</p>
+<p>分隔符有“,”“;”</p>
+<p>再多条件里多个数组是且的关系，多个分隔符相同时，那么他们的关系是一一对应的。不同表示所有条件的组合。</p>
+<p>例1</p>
+<table>
+<thead>
+<tr>
+<th>部门</th>
+<th>产品</th>
+<th>一月销售额</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>一部+二部</td>
+<td>A+C</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>那么要求的销售额是一部A，一部C，二部A，二部C的和</p>
+<p>销售额是两个条件的的所有的组合的和，所以应该用不同的分隔符</p>
+<p>例2</p>
+<table>
+<thead>
+<tr>
+<th>部门</th>
+<th>产品</th>
+<th>一月销售额合计</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>一部</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>二部</td>
+<td>C</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>这时候那么要求的销售额是一部A，二部C的和。</p>
+<p>所以应该用相同的分隔符来表示对应的关系。</p>
+<p>If判断数值从高到低，从低到高高的也满足低的条件会出错。</p>
+<p>ABS绝对值函数</p>
+<table>
+<thead>
+<tr>
+<th>示例</th>
+<th>绝对值abs函数 abs(a2)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-117</td>
+<td>117</td>
+</tr>
+<tr>
+<td>-121</td>
+<td>121</td>
+</tr>
+<tr>
+<td>-112</td>
+<td>112</td>
+</tr>
+</tbody></table>
+<h3 id="subtotal函数"><a href="#subtotal函数" class="headerlink" title="subtotal函数"></a>subtotal函数</h3><p>作用：返回一个数据列表或数据库的分类汇总。</p>
+<p>语法：&#x3D;Subtotal(功能代码，数值区域)。</p>
+<p>如下图，代码1-11和101-111函数是相同的，但是他们的功能不同，前者计算的时候会将隐藏的值一起计算，后面在筛选或者隐藏数据后，只计算可见单元格数据。</p>
+<p><img src="https://tucang.cc/api/image/show/81944d8c004906cc40e92ad41aac2661"></p>
+<img src="https://tucang.cc/api/image/show/8a075028b9aae0842b7787c56d92ee6b" alt="" style="zoom:50%;" />
 
-<h3 id="嵌入音乐"><a href="#嵌入音乐" class="headerlink" title="嵌入音乐"></a>嵌入音乐</h3><p><audio controls title="音频"><source src="https://www.runoob.com/try/demo_source/horse.ogg" type="audio/ogg"><br>您的浏览器不支持 audio 元素。<br></audio></p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">audio</span> <span class="attr">controls</span> <span class="attr">title</span>=<span class="string">&quot;音频&quot;</span>&gt;</span><span class="tag">&lt;<span class="name">source</span> <span class="attr">src</span>=<span class="string">&quot;https://www.runoob.com/try/demo_source/horse.ogg&quot;</span> <span class="attr">type</span>=<span class="string">&quot;audio/ogg&quot;</span>&gt;</span></span><br><span class="line">您的浏览器不支持 audio 元素。</span><br><span class="line"><span class="tag">&lt;/<span class="name">audio</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 
+<p>求班级平均分</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>班级平均分</td>
+<td>&#x3D;SUBTOTAL(1,B3:B5)</td>
+<td>B1结果为80</td>
+</tr>
+<tr>
+<td>2</td>
+<td>姓名</td>
+<td>语文</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>张三</td>
+<td>90</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>李四</td>
+<td>80</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>王五</td>
+<td>70</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>将function_num 值改成9,则求班级语文总分数，同理改成其他值，则得出相应的结果</p>
+<p>更多技巧参见<a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1697158947709614990&wfr=spider&for=pc">subtotal函数的使用方法和实例</a></p>
+<p>Not否定函数</p>
+<p> 给单元格加前导0</p>
+<p>设置单元格格式，自定义，输入000（要0到多少位就输多少个0，另外这里还可以设置格式来格式化号码）</p>
+<p>强大的自动填充</p>
+<p>如想要去掉单元格的英文，可以在旁边输入单元格里面的中文，自动填充。</p>
+<p>思路开拓</p>
+<p>题目要求每一个的数值都大于指定值为a</p>
+<p>可以使用and或or和数组</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">if or(&#123;平均分&gt;60,平均分&gt;80,平均分&gt;90&#125;:&#123;and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60),and(xx&gt;60,xx&gt;60,xx&gt;60)&#125;)</span><br></pre></td></tr></table></figure>
 
-
-<p><img src="https://tucang.cc/api/image/show/8d73e7a061aa554f245e0f2f112bb993" alt="图片"></p>
-<h3 id="嵌入文档"><a href="#嵌入文档" class="headerlink" title="嵌入文档"></a>嵌入文档</h3><p>在源代码模式下输入代码</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;9999&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/英语.pdf&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>这种嵌入只对本地文件有用，用网络文件等于自动下载，基本上没用。</p>
-<h3 id="嵌入网页"><a href="#嵌入网页" class="headerlink" title="嵌入网页"></a>嵌入网页</h3><h4 id="两种方式"><a href="#两种方式" class="headerlink" title="两种方式"></a>两种方式</h4><h5 id="通过iframe标签"><a href="#通过iframe标签" class="headerlink" title="通过iframe标签"></a>通过iframe标签</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe src=&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot; width=&quot;100%&quot; height=&quot;9999&quot; name=&quot;topFrame&quot; scrolling=&quot;yes&quot;  noresize=&quot;noresize&quot; frameborder=&quot;0&quot; id=&quot;topFrame&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;嵌入网页</span><br><span class="line">&lt;iframe src=&quot;file:///H:/Users/lenovo/Desktop/%E7%BC%96%E7%A8%8B/1.html&quot; width=&quot;100%&quot; height=&quot;600&quot;&gt;&lt;/iframe&gt;简单嵌入网页</span><br></pre></td></tr></table></figure>
-<h5 id="通过html5的object标签"><a href="#通过html5的object标签" class="headerlink" title="通过html5的object标签"></a>通过html5的object标签</h5><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">object</span> <span class="attr">width</span>=<span class="string">&quot;100%&quot;</span> <span class="attr">height</span>=<span class="string">&quot;300&quot;</span> <span class="attr">data</span>=<span class="string">&quot;https://susmeo.github.io/file.github.io/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.html&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">object</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="emoji"><a href="#emoji" class="headerlink" title="emoji"></a><a target="_blank" rel="noopener" href="https://blog.17lai.site/posts/80938cfe/">emoji</a></h3><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>在线演示文档可以输出为图片或用wps在线演示。</p>
-<p>或者用嵌入代码在typora源代码模式下插入代码（基本上没用，会自动下载，不能演示）</p>
-<p>但可以用嵌入代码嵌入网页（文档也可以转成网页，不过效果不完全一样，配置也复杂，不推荐。）</p>
-<p>原文件可以放上链接让浏览者下载</p>
-<p>ppt的演示可以用插件（好像挺复杂，还没用过。）</p>
-<p>视频音乐用html代码</p>
-<p>图片直接插入</p>
-<p>简单的公式用html代码，复杂的公式可以用word编辑好，粘贴为图片</p>
-<p>文字效果可以用html代码</p>
-<p>如：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;p style=&quot;text-align:left;color:red;font-size:1em;font-weight: bold;&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-<p>虽然mrakdown可以用标准html代码，但在md里是不需要结束标签的，两者做出来效果都一样，想怎么写就怎么写！</p>
-<p>推荐一个hexo博客写得贼溜的大神<a target="_blank" rel="noopener" href="https://blog.17lai.site/tags/hexo/" style="text-align:center;color:#8EC0E4;font-size:1.5em;font-weight: bold;"><br>夜法之书<br></a></p>
+<p>但输入较麻烦。可以直接用countif，条件为&lt;a，判断返回值是否&gt;&#x3D;1</p>
+<p>查重 -不是数据里的去重</p>
+<p>通过查重和条件格式将重复项标出来，或利用筛选、排序突出显示</p>
+<p>利用countif之类的的计数函数，判断返回值是否&gt;1。</p>
+<p>段落标记显示与隐藏开：开始|显示隐藏编辑标记</p>
+<p><img src="https://tucang.cc/api/image/show/6d94dd17e2ac50cc17c81c8521a77dc2"></p>
+<p>开关显示全部（包括换行符）：文件|选项|显示。 </p>
+<p>分页和分节区别</p>
+<p>分页是在同一个页码体系里面的。而插入分节后能同时存在多种页码。</p>
+<p>如：一些书目录有1、2、3这样的页码。而正文的页码也是从1开始的。这就是用分节符做到的。</p>
+<p><img src="https://tucang.cc/api/image/show/2c016cafbea1a7fe178a15c44aa9083b"></p>
 
                 
             </div>
@@ -381,7 +571,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://susmeo.github.io/2022/09/17/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/">https://susmeo.github.io/2022/09/17/hexo%E5%8D%9A%E5%AE%A2%E5%B5%8C%E5%85%A5%E5%A4%9A%E5%AA%92%E4%BD%93%E7%9A%84%E6%96%B9%E6%B3%95/</a>
+                    <a href="https://susmeo.github.io/2022/08/21/office%E6%8A%80%E5%B7%A7/">https://susmeo.github.io/2022/08/21/office%E6%8A%80%E5%B7%A7/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -419,8 +609,12 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/office/">
+                                    <span class="chip bg-color">office</span>
+                                </a>
+                            
+                                <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/">
+                                    <span class="chip bg-color">计算机等级考证</span>
                                 </a>
                             
                         </div>
@@ -472,23 +666,23 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/09/17/office%E6%8A%80%E5%B7%A7/">
+                <a href="/2022/08/22/office%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97/">
                     <div class="card-image">
                         
-                        <img src="https://tucang.cc/api/image/show/c24660439ac158a4594a2099f8984e22" class="responsive-img" alt="office技巧">
+                        <img src="https://tucang.cc/api/image/show/2edebb6b22e084d2747184ce56262d0d" class="responsive-img" alt="office避坑指南">
                         
-                        <span class="card-title">office技巧</span>
+                        <span class="card-title">office避坑指南</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            快来看看~
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-17
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-22
                         </span>
                         <span class="publish-author">
                             
@@ -524,31 +718,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/09/17/%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A01/">
+                <a href="/2022/08/18/hexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95%E8%A6%81%E7%82%B9/">
                     <div class="card-image">
                         
                         
-                        <img src="https://tucang.cc/api/image/show/c613fbd6f7fadb8e65fdae620d89d277" class="responsive-img" alt="考前复习1">
+                        <img src="https://tucang.cc/api/image/show/daaa0bfde5bade9fd47a9828a89c1044" class="responsive-img" alt="hexo个人博客迁移方法要点">
                         
-                        <span class="card-title">考前复习1</span>
+                        <span class="card-title">hexo个人博客迁移方法要点</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Word易错点
+                            简单快速迁移博客
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-17
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-18
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" class="post-category">
-                                    计算机等级考证
+                            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="post-category">
+                                    笔记
                                 </a>
                             
                             
@@ -558,8 +752,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%80%83%E8%AF%81/">
-                        <span class="chip bg-color">考证</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                 </div>
@@ -708,7 +902,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">5.7k</span>
+                        class="white-color">7.5k</span>
             
             
             

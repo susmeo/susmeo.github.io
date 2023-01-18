@@ -4,8 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="分类: 软件, 阿展的博客">
-    <meta name="description" content="阿展的个人博客">
+    <meta name="keywords" content="名词, 阿展的博客">
+    <meta name="description" content="一、考纲要求
+名词应掌握以下内容：名词的可数性与不可数性；可数名词的单复数形式；名词的所有格；名词词义的去区分和搭配。
+二、命题分析
+名词是英语的词类之一，也是历年考试的重要考点。名词的考查形式是多种多样的，考试题型主要有单项选择、完形填空">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +31,7 @@
     </style>
 
 
-    <title>分类: 软件 | 阿展的博客</title>
+    <title>名词 | 阿展的博客</title>
     <link rel="icon" type="image/png" href="/medias/logo.png">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/awesome/css/all.min.css">
@@ -207,207 +210,426 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                欢迎！
-                
-            </div>
-
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/typed/typed.js"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "路曼曼其修远兮，吾将上下而求索。——屈原《离骚》",
-                            
-                                "少壮不努力，老大徒伤悲！——佚名《长歌行》",
-                            
-                                "人生天地间，忽如远行客。——《古诗十九首·青青陵上柏》",
-                            
-                                "江南可采莲，莲叶何田田，鱼戏莲叶间。——《江南》",
-                            
-                                "洞庭有归客，潇湘逢故人。——柳恽《江南曲》",
-                            
-                                "盛年不重来，一日难再晨。——陶渊明《杂诗·人生无根蒂》",
-                            
-                                "暮江平不动，春花满正开。流波将月去，潮水带星来。——杨广《春江花月夜》",
-                            
-                                "兰庭动幽气，竹室生虚白。——杨素《山斋独坐赠薛内史》",
-                            
-                                "空山新雨后，天气晚来秋。——王维《山居秋暝》",
-                            
-                                "醉卧沙场君莫笑，古来征战几人回？——王翰《凉州词二首·其一》",
-                            
-                                "同是天涯沦落人，相逢何必曾相识！——白居易《琵琶行》",
-                            
-                                "露从今夜白，月是故乡明。——杜甫《月夜忆舍弟》",
-                            
-                                "山重水复疑无路，柳暗花明又一村。——陆游《游山西村》",
-                            
-                                "不识庐山真面目，只缘身在此山中。——苏轼《题西林壁》",
-                            
-                                "人有悲欢离合，月有阴晴圆缺，此事古难全。——苏轼《水调歌头·丙辰中秋》",
-                            
-                                "纸上得来终觉浅，绝知此事要躬行。——陆游《冬夜读书示子聿》",
-                            
-                                "少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。——辛弃疾《丑奴儿·书博山道中壁》",
-                            
-                                "醉后不知天在水，满船清梦压星河。——唐温如《题龙阳县青草湖》",
-                            
-                                "坐睡船自流，云深一蓑小。——陈孚《江天暮雪》",
-                            
-                                "明日复明日，明日何其多。——钱福《明日歌》",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 55,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
+    
+<script src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/cryptojs/crypto-js.min.js"></script>
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
 </script>
 
 
-    </div>
-</div>
 
-<main class="content">
 
-    
-
-<div id="category-cloud" class="container chip-container">
-    <div class="card">
-        <div class="card-content">
-            <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
-            </div>
-            <div class="tag-chips">
-                
-                
-                
-                <a href="/categories/%E7%AC%94%E8%AE%B0/" title="笔记: 4">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F9EBEA;">笔记
-                        <span class="tag-length">4</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" title="计算机等级考证: 8">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">计算机等级考证
-                        <span class="tag-length">8</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/%E8%BD%AF%E4%BB%B6/" title="软件: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            style="background-color: #D5F5E3;">软件
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/%E5%A8%B1%E4%B9%90/" title="娱乐: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #E8F8F5;">娱乐
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/%E8%8B%B1%E8%AF%AD/" title="英语: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #FEF9E7;">英语
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://tucang.cc/api/image/show/a10c0c26873905fd897732ef6e1c8432')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">名词</h1>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
 
+
+
+<main class="container content">
+
     
-
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2022/07/12/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90/">
-                        <div class="card-image tag-image">
-                            
-                            <img src="https://tucang.cc/api/image/show/83ecc4608d29372b89723b0eb1fa0d90" class="responsive-img" alt="各种软件下载">
-                            
-                            <span class="card-title">各种软件下载</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                找软件请来这里
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-07-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                
-                                <a href="/categories/%E8%BD%AF%E4%BB%B6/" class="post-category">
-                                    软件
-                                </a>
-                                
-                                
-                            </span>
-                        </div>
-                    </div>
-
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
                     
-                    <div class="card-action article-tags">
+                    <div class="article-tag">
                         
-                        <a href="/tags/%E8%BD%AF%E4%BB%B6/">
-                            <span class="chip bg-color">软件</span>
-                        </a>
+                            <a href="/tags/%E8%8B%B1%E8%AF%AD/">
+                                <span class="chip bg-color">英语</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%90%8D%E8%AF%8D/">
+                                <span class="chip bg-color">名词</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E8%8B%B1%E8%AF%AD/" class="post-category">
+                                英语
+                            </a>
                         
                     </div>
                     
                 </div>
             </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2023-01-18
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2023-01-18
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    497
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>一、考纲要求</p>
+<p>名词应掌握以下内容：名词的可数性与不可数性；可数名词的单复数形式；名词的所有格；名词词义的去区分和搭配。</p>
+<p>二、命题分析</p>
+<p>名词是英语的词类之一，也是历年考试的重要考点。名词的考查形式是多种多样的，考试题型主要有单项选择、完形填空、语法填空。考生在平时的学习中要注意积累、并掌握名词的基本知识和用法。</p>
+<p>名词的可数与不可数是高高职高考命题的热点之一。不可数名词前不能与不定冠词连用。词语的固定搭配及名词作定语也是高职高考命题的注意点。</p>
+<p><img src="https://img.tucang.cc/api/image/show/68bc82f14229cdef298b422d8157cdcd" alt="名词的知识结构"></p>
+<p>一、名词的分类</p>
+<p>名词是表示人、事物、地点或抽象概念的词，如student、boy、London、desk、idea等。名词可以分为专有名词和普通名词两大类。</p>
+<p>1.专有名词</p>
+<p>专有名词是指某个（些）人物、事物、地点、机构、国家、地区等专有的名称，如Beijing，China等。</p>
+<p>2.普通名词</p>
+<p>普通名词是指一类人、东西或是一个抽象概念的名称，如book，sadness等。普通名词可分为个体名词、集体名词、物质名词和抽象名词四大类。</p>
+<p>个体名词表示某类人或物中的个体，如child，room等。</p>
+<p>集体名词表示由若干个个体组成的集合体，如people，family等。</p>
+<p>物质名词表示无法分为个体的事物，如air，ink等。</p>
+<p>抽象名词表示动作、状态、品质、感情等抽象概念，如work，kindness等。</p>
+<p>个体名词he集体名词可以用数目来计算，成为可数名词。物质名词和抽象名词一般无法用数目来计算，成为不可数名词。因此，普通名词也可以分为可数名词和不可数名词两大类。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">阿展</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://susmeo.github.io/2023/01/18/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%90%8D%E8%AF%8D/">https://susmeo.github.io/2023/01/18/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%90%8D%E8%AF%8D/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">阿展</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E8%8B%B1%E8%AF%AD/">
+                                    <span class="chip bg-color">英语</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%90%8D%E8%AF%8D/">
+                                    <span class="chip bg-color">名词</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
             
         </div>
-    </article>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2023/01/18/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%90%8D%E8%AF%8D/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="https://tucang.cc/api/image/show/a10c0c26873905fd897732ef6e1c8432" class="responsive-img" alt="名词">
+                        
+                        <span class="card-title">名词</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-18
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%8B%B1%E8%AF%AD/" class="post-category">
+                                    英语
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E8%8B%B1%E8%AF%AD/">
+                        <span class="chip bg-color">英语</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%90%8D%E8%AF%8D/">
+                        <span class="chip bg-color">名词</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/09/24/Excel%E5%A4%8D%E4%B9%A0/">
+                    <div class="card-image">
+                        
+                        <img src="https://tucang.cc/api/image/show/bbccbf687dc95cf350a9e5b5ee3d98b6" class="responsive-img" alt="Excel复习">
+                        
+                        <span class="card-title">Excel复习</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Excel要点复习
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/" class="post-category">
+                                    计算机等级考证
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/office/">
+                        <span class="chip bg-color">office</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%AD%89%E7%BA%A7%E8%80%83%E8%AF%81/">
+                        <span class="chip bg-color">计算机等级考证</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('100')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 阿展的博客<br />'
+            + '文章作者: 阿展<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/susmeo/susmeo.github.io/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    
+
 </main>
 
 
